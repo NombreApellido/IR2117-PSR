@@ -16,15 +16,9 @@ int main()
     cout<<"Enter a number: ";
     int a;
     cin >> a;
-    if (a>=1)
-    {
-        int sum;
-        sum = sumv3(a);
-        cout<<"The sum from 1 to "<< a<<" is "<< sum << endl;
-    }
-    else{
-        cout<<"Try Again"<<endl;
-    }
+    int sum;
+    sum = sumv3(a);
+    cout<<"The sum from 1 to "<< a<<" is "<< sum << endl;
+
     return 0;
 }
-
