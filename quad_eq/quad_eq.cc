@@ -10,12 +10,19 @@ int main()
     cin >> b;
     cout << "Enter c: ";
     cin >> c;
-    x1 = (-b+sqrt(b*b-4*a*c))/(2*a);
-    x2 = (-b-sqrt(b*b-4*a*c))/(2*a);
-    cout << "x1 = " << x1 << endl;
-    cout << "x2 = " << x2 << endl;
-
+    if (b*b-4*a*c < 0)
+    {
+        cout << "Discriminant below 0, try again"   ; 
+    }
+    else
+    {
+        x1 = (-b+sqrt(b*b-4*a*c))/(2*a);
+        x2 = (-b-sqrt(b*b-4*a*c))/(2*a);
+        cout << "x1 = " << x1 << endl;
+        cout << "x2 = " << x2 << endl;
+  
+    }
+    
     return 0;
 }
-
 
