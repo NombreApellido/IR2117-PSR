@@ -7,7 +7,7 @@ int main(int argc, char** argv)
     double m = 0, s=0;
     int n=0, element;
     cin >> element;
-    while (element>0)
+    while (!cin.eof())
     {
     	n += 1;
     	s += element;
