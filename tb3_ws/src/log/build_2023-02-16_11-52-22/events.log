@@ -1,0 +1,48 @@
+[0.000000] (-) TimerEvent: {}
+[0.000140] (robot_trajectory) JobQueued: {'identifier': 'robot_trajectory', 'dependencies': OrderedDict()}
+[0.000194] (robot_trajectory) JobStarted: {'identifier': 'robot_trajectory'}
+[0.014746] (robot_trajectory) JobProgress: {'identifier': 'robot_trajectory', 'progress': 'cmake'}
+[0.015253] (robot_trajectory) Command: {'cmd': ['/usr/bin/cmake', '/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory', '-DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/install/robot_trajectory'], 'cwd': '/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'usuario'), ('SSH_AGENT_PID', '2592'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/usuario'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2411'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=63dfe28bcbe9c8be3b9bb4fb63ee06e3'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'usuario'), ('JOURNAL_STREAM', '8:59642'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'usuario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/usuario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labrob16.act.uji.es:@/tmp/.ICE-unix/2685,unix/labrob16.act.uji.es:/tmp/.ICE-unix/2685'), ('INVOCATION_ID', 'b0986142ef9f4f2699e9e966aaac6855'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c39607dc_5349_4d6c_8be5_3f8c39509747'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=63dfe28bcbe9c8be3b9bb4fb63ee06e3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.098717] (-) TimerEvent: {}
+[0.199130] (-) TimerEvent: {}
+[0.199958] (robot_trajectory) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.299287] (-) TimerEvent: {}
+[0.324702] (robot_trajectory) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.334733] (robot_trajectory) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.399381] (-) TimerEvent: {}
+[0.400378] (robot_trajectory) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.402899] (robot_trajectory) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.476685] (robot_trajectory) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.490192] (robot_trajectory) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.490840] (robot_trajectory) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.494606] (robot_trajectory) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.499498] (-) TimerEvent: {}
+[0.567155] (robot_trajectory) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.568270] (robot_trajectory) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.599588] (-) TimerEvent: {}
+[0.643375] (robot_trajectory) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.657137] (robot_trajectory) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.657523] (robot_trajectory) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.668759] (robot_trajectory) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.668982] (robot_trajectory) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.669053] (robot_trajectory) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.669107] (robot_trajectory) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.669156] (robot_trajectory) StderrLine: {'line': b'\n'}
+[0.669204] (robot_trajectory) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.669252] (robot_trajectory) StderrLine: {'line': b'  any of the following names:\n'}
+[0.669377] (robot_trajectory) StderrLine: {'line': b'\n'}
+[0.669450] (robot_trajectory) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.669498] (robot_trajectory) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.669546] (robot_trajectory) StderrLine: {'line': b'\n'}
+[0.669592] (robot_trajectory) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.669640] (robot_trajectory) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.669686] (robot_trajectory) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.669732] (robot_trajectory) StderrLine: {'line': b'  has been installed.\n'}
+[0.669777] (robot_trajectory) StderrLine: {'line': b'\n'}
+[0.669822] (robot_trajectory) StderrLine: {'line': b'\n'}
+[0.669867] (robot_trajectory) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.669922] (robot_trajectory) StdoutLine: {'line': b'See also "/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory/CMakeFiles/CMakeOutput.log".\n'}
+[0.672044] (robot_trajectory) CommandEnded: {'returncode': 1}
+[0.701008] (-) TimerEvent: {}
+[0.706611] (robot_trajectory) JobEnded: {'identifier': 'robot_trajectory', 'rc': 1}
+[0.707809] (-) EventReactorShutdown: {}
