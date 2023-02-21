@@ -11,6 +11,8 @@ int main(int argc, char** argv) {
     std:cin >> element;
     
   }
+  elements=sort(elements);
+  cout<<"Elements sorted: "<<elements<<endl;
   
   std:cout << "Median: " << m << std:endl;
   return 0;
