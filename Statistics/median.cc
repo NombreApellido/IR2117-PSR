@@ -1,6 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <bits/stdc++.h>
+#include "utils.cc"
 
 int main(int argc, char** argv) {
   double m=0, s=0;
