@@ -14,9 +14,11 @@ int main(int argc, char** argv) {
     
   }
   if(n%2!=0) {
-      m = elements[n/2];
+      m = elements[n/2]; 
   }
-
+  else{
+    m=(elements[n/2]+elements[n/2+1])/2;
+  }
   cout<<"Number of elements: "<<n<<endl;
   for(int i=0; i<sizeof(elements)-1; i++){
     for (int j=0; j<n-i-1;j++){
