@@ -1,6 +1,5 @@
-#include <iostream>
-#include <vector>
-#include <map>
+#include "utils.cc"
+
 int main(int argc, char** argv) {
   double m=0, s=0;
   int n=0, element;
