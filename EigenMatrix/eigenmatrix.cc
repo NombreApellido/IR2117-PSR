@@ -22,7 +22,36 @@ int main() {
     if(m.isSquare()) {
       rep = false;
   }
-  cout << sumamax << std::endl;
+  int sumamaxfilas=0, sumamaxcolumnas=0, sumamaxdiag1=0, sumamaxdiag2=0;
+  for(int f=0; f<=nfilas; f++){
+    int sum=0;
+    for(int c=0; c<=nfilas; c++) {
+      sum = sum + m(f, c);
+    }
+    if(sum > sumamaxfilas) {
+      sumamaxfilas = sum;
+    }
+  }
+  for(int f=0; f<=nfilas; f++){
+    int sum=0;
+    for(int c=0; c<=nfilas; c++) {
+      sum = sum + m(c, f); // lo mismo que antes pero cambiando f por c
+    }
+    if(sum > sumamaxcolumnas) {
+      sumamaxcolumnas = sum;
+    }
+  }
+  int sumdiag1=0;
+  for(int d=0; d<=nfilas; d++) {
+    sumdiag1 = sumdiag1 + m(d, d);
+  }
+  int sumdiag2=0;
+  for(int d=nfilas; d>=0; d--) {
+    sumdiag2 = sumdiag2 + m(d, d);
+  }
+  
+  std::cout << "sumamaxfilas: " << sumamaxfilas << ", sumamaxcolumnas: " << sumamaxcolumnas << ", sumamaxdiag1: " << sumamaxdiag1 << ", sumamaxdiag2: " << sumamaxdiag2 << std::endl;
+  std::cout << sumamax << std::endl;
 
 
   return 0;
