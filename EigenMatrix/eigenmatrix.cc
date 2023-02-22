@@ -50,7 +50,18 @@ int main() {
     sumdiag2 = sumdiag2 + m(d, d);
   }
   
-  std::cout << "sumamaxfilas: " << sumamaxfilas << ", sumamaxcolumnas: " << sumamaxcolumnas << ", sumamaxdiag1: " << sumamaxdiag1 << ", sumamaxdiag2: " << sumamaxdiag2 << std::endl;
+  if(sumamaxfilas > sumamax) {
+      sumamax = sumamaxfilas;
+    }
+  if(sumamaxcolumnas > sumamax) {
+      sumamax = sumamaxcolumnas;
+    }
+  if(sumamaxdiag1 > sumamax) {
+      sumamax = sumamaxdiag1;
+    }
+  if(sumamaxdiag2 > sumamax) {
+      sumamax = sumamaxdiag2;
+    }
   std::cout << sumamax << std::endl;
 
 
