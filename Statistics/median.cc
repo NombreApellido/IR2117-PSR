@@ -1,9 +1,11 @@
 #include "utils.cc"
+#include <iostream>
+#include <Eigen/Dense>
 
 int main(int argc, char** argv) {
   double m=0, s=0;
   int n=0, element;
-  std::vector<int> elements;
+  Eigen::VectorXd elements(100);
   std::cin >> element;
   while (not std::cin.eof()) {
     elements.push_back(element);
