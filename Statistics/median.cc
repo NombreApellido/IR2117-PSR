@@ -3,31 +3,27 @@
 #include <Eigen/Dense>
 
 int main(int argc, char** argv) {
-  double m=0, s=0;
+  double median=0, s=0;
   int n=0, element;
   Eigen::VectorXd elements(100);
   std::cin >> element;
   while (not std::cin.eof()) {
-    elements.push_back(element);
+    elements(n) = element;
     n += 1;
     std:cin >> element;
     
   }
+  elements.conservativeResize(n); // ajustamos el tamaño del vector
+  std::sort(elements.data(), elements.data()+n);
+  
   if(n%2!=0) {
-      m = elements[n/2]; 
+      m = elements(n/2); 
   }
   else{
-    m=(elements[n/2]+elements[n/2+1])/2;
+    m=(elements(n/2)+elements(n/2+1))/2;
   }
-  cout<<"Number of elements: "<<n<<endl;
-  for(int i=0; i<sizeof(elements)-1; i++){
-    for (int j=0; j<n-i-1;j++){
-      if(elements[j]>elements[j+1]){
-        swap(elements[j], elements[j+1]);
-      }
-    }
-  }
-  cout<<"Sorted elements are: ";
+  cout<<"Number of elements: " << n << endl;
+  cout<<"Sorted elements are: " << elements << std::endl;
   for(int i=0; x<elements.size(); i++) {
     cout << elements[i];
   }
