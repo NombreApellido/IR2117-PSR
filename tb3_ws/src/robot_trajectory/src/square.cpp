@@ -11,7 +11,7 @@ int main(int argc, char * argv[])
   auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
   node->declare_parameter("linear_speed", 0.1);
   node->declare_parameter("angular_speed", 3.1416 / 20);
-  node->declare_parameter("square_length", 1);
+  node->declare_parameter("square_length", 1.0);
   geometry_msgs::msg::Twist message;
   rclcpp::WallRate loop_rate(10ms);
   
@@ -19,7 +19,7 @@ int main(int argc, char * argv[])
   double angular_speed = node->get_parameter("angular_speed").get_parameter_value().get<double>();
   double square_length = node->get_parameter("square_length").get_parameter_value().get<double>();
   for(int j=0; j<4; j++){
-    int i=0, n= 1 / (0.01 * linear_speed);
+    int i=0, n= square_length / (0.01 * linear_speed);
     while (rclcpp::ok() && (i<n)) {
       i++;
       // move forward
@@ -32,8 +32,8 @@ int main(int argc, char * argv[])
     message.linear.x = 0.0;
     publisher->publish(message);
     
-    i=0;
-    n=1571;
+    i = 0;
+    n = (3.1416 / 2) / (0.01 * angular_speed);
     while (rclcpp::ok() && (i<n)) {
       i++;
       // trun
