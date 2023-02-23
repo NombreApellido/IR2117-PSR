@@ -21,7 +21,7 @@ int main(int argc, char * argv[])
     while (rclcpp::ok() && (i<n)) {
       i++;
       // move forward
-      message.linear.x = speed;
+      message.linear.x = linear_speed;
       publisher->publish(message);
       rclcpp::spin_some(node);
       loop_rate.sleep();
@@ -35,7 +35,7 @@ int main(int argc, char * argv[])
     while (rclcpp::ok() && (i<n)) {
       i++;
       // trun
-      message.angular.z = 0.1;
+      message.angular.z = angular_speed;
       publisher->publish(message);
       rclcpp::spin_some(node);
       loop_rate.sleep();
