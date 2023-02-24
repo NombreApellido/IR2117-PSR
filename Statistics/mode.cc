@@ -1,4 +1,6 @@
 #include "utils.cc"
+#include <iostream>
+#include <Eigen/Dense>
 
 int main(int argc, char** argv) {
   double m=0, s=0;
