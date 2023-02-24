@@ -24,9 +24,6 @@ int main(int argc, char** argv) {
   }
   cout<<"Number of elements: " << n << endl;
   cout<<"Sorted elements are: " << elements << std::endl;
-  for(int i=0; x<elements.size(); i++) {
-    cout << elements[i];
-  }
   std:cout << "Median: " << m << std:endl;
   return 0;
   
