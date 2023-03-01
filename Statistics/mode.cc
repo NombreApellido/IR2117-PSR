@@ -8,7 +8,7 @@ std::istream& operator>>(std::istream& in,
     int =0;
     in>>element;
     while (not in.eof()){
-        v.resize(i+1);    
+        v.resize(i+1);
         v(i++) = element;
         in >> element;
     }		
@@ -17,5 +17,7 @@ std::istream& operator>>(std::istream& in,
 int main() {
     VectorXd v;
     std::cin >> v;
+    std::cout << "The vector is: " << std::endl;
+    std::cout << v << std::endl;
 
 }
