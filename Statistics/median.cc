@@ -5,11 +5,13 @@ using Eigen::VectorXd;
 std::istream& operator>>(std::istream& in,
 			  VectorXd& v) {
     double element;
+    int =0;
     in>>element;
     while (not in.eof()){
-        v.push_back(element);
+        v(i++) = element;
         in >> element;
-    }			  
+    }		
+    return in;	  
 
 int main() {
     VectorXd v;
