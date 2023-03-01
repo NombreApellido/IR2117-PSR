@@ -8,6 +8,7 @@ std::istream& operator>>(std::istream& in,
     int =0;
     in>>element;
     while (not in.eof()){
+        v.resize(i+1);    
         v(i++) = element;
         in >> element;
     }		
