@@ -1,13 +1,8 @@
-all: arith_mean median mode
+all: median mode
 
-arith_mean: arith_mean.cc utils.o
-    g++ -o arith_mean arith_mean.cc utils.o
+median: median.cc
+	g++ I/usr/include/eigen3 -o median median.cc
     
-median: median.cc utils.o
-    g++ -o median median.cc utils.o
+mode: mode.cc 
+	g++ I/usr/include/eigen3 -o mode mode.cc 
     
-mode: mode.cc utils.o
-    g++ -o mode mode.cc utils.o
-    
-utils.o: utils.cc utils.hpp
-    g++ utils.cc
