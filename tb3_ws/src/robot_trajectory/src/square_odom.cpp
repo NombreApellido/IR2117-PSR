@@ -1,13 +1,23 @@
 #include <chrono>
 #include "rclcpp/rclcpp.hpp"
+#include "nav_msgs/msg/odometry.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 
 using namespace std::chrono_literals;
 
+void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
+{
+    std::cout << msg << std::endl;
+}
+
+
 int main(int argc, char * argv[])
 {
+    
+
   rclcpp::init(argc, argv);
-  auto node = rclcpp::Node::make_shared("square");
+  auto node = rclcpp::Node::make_shared("square_odom");
+  auto subscription = node->create_subscription<nav_msgs::msg::Odometry>("odom", 10, topic_callback);
   auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
   node->declare_parameter("linear_speed", 0.1);
   node->declare_parameter("angular_speed", 3.1416 / 20);
