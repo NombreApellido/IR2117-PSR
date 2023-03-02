@@ -3,11 +3,15 @@
 #include "nav_msgs/msg/odometry.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 
+double x=0.0, y=0.0;
 using namespace std::chrono_literals;
 
 void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
 {
-    std::cout << msg << std::endl;
+    x = msg -> pose.pose.position.x;
+    y = msg -> pose.pose.position.y;
+    std::cout << x << std::endl;
+    std::cout << y << std::endl;
 }
 
 
