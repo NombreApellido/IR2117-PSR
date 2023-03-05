@@ -10,13 +10,8 @@ int main() {
     std::sort(v.data(), v.data()+v.size());
     std::cout << "The vector is: " << std::endl;
     std::cout << v << std::endl;
-    int middle = v.size()/2;
-    double m;
-    if (v.size()%2==0){
-        m = (v[middle]+v[middle-1]/2;
+    std::map<double, int> counts;
+    for (auto value : v) {
+        counts[value]++;
     }
-    else{
-        m = v[middle];
-    }
-    std::cout << "Median: " << m << std::endl;
 }
