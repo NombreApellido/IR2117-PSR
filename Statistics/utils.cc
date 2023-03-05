@@ -1,17 +1,11 @@
 #include "utils.hpp"
-#include <iostream>
-#include <vector>
-#include <map>
 
-std::vector<int> ReadElements() {
-  int element;
-  std::vector<int> elements;
-  std::cin >> element;
-  while (not std::cin.eof()) {
-    elements.push_back(element);
-    std::cin >> element;
-    
-  }
-  return elements;	
+using Eigen::VectorXd;
 
+int main() {
+
+    VectorXd v;
+    std::cin >> v;
+    std::cout << "The vector is: " << std::endl;
+    std::cout << v << std::endl;
 }
