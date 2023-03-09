@@ -4,7 +4,7 @@
 #include "geometry_msgs/msg/twist.hpp"
 #include <math.h> 
 
-double x=0.0, y=0.0, angle = 0.0, x_ori = 0.0, y_ori = 0.0, ini_pos_x = 0.0, ini_pos_y = 0.0, ini_angle = 0.0;
+double x=0.0, y=0.0, angle = 0.0, x_ori = 0.0, y_ori = 0.0, ini_pos_x = 0.0, ini_pos_y = 0.0, ini_angle = 0.0, distance = 0.0;
 using namespace std::chrono_literals;
 
 void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
@@ -17,12 +17,13 @@ void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
     x_ori = msg -> pose.pose.orientation.x;
     y_ori = msg -> pose.pose.orientation.y;
     angle = atan2(y_ori, x_ori);
-
     x = msg -> pose.pose.position.x;
     y = msg -> pose.pose.position.y;
+    distance = sqrt(pow(x - ini_pos_x, 2) + pow(y - ini_pos_y, 2));
     std::cout << "Position x: " << x << std::endl;
     std::cout << "Position y: " << y << std::endl;
     std::cout << "Angle: " << angle << std::endl;
+    std::cout << "Distance: " << distance << std::endl;
 }
 
 
