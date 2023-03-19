@@ -48,7 +48,7 @@ int main(int argc, char * argv[])
   double square_length = node->get_parameter("square_length").get_parameter_value().get<double>();
   for(int j=0; j<4; j++){
     int i=0, n= square_length / (0.01 * linear_speed);
-    while (rclcpp::ok() && (i<n)) {
+    while (rclcpp::ok() && (distance<n)) {
       i++;
       // move forward
       message.linear.x = linear_speed;
