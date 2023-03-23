@@ -1,0 +1,13 @@
+[0.024s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory -- -j6 -l6
+[0.056s] [35m[1mScanning dependencies of target wandering[0m
+[0.070s] [ 66%] Built target square_odom
+[0.070s] [ 66%] Built target square
+[0.074s] [ 83%] [32mBuilding CXX object CMakeFiles/wandering.dir/src/wandering.cpp.o[0m
+[1.277s] [01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/wandering.cpp:[m[K In function ‘[01m[Kvoid scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.277s] [01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/wandering.cpp:10:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kranges[m[K’ was not declared in this scope
+[1.277s]    10 |     for(int i; i<[01;31m[Kranges[m[K.size(); i++)
+[1.277s]       |                  [01;31m[K^~~~~~[m[K
+[2.899s] make[2]: *** [CMakeFiles/wandering.dir/build.make:63: CMakeFiles/wandering.dir/src/wandering.cpp.o] Error 1
+[2.899s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/wandering.dir/all] Error 2
+[2.899s] make: *** [Makefile:141: all] Error 2
+[2.901s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory -- -j6 -l6
