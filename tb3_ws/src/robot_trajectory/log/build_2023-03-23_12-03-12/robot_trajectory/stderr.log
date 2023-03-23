@@ -1,0 +1,14 @@
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/wandering.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/wandering.cpp:11:49:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   11 |   auto subscription = node->create_subscription<[01;31m[Ksensor_msgs[m[K::msg::LaserScan>("/turtle1/scan", 0, topic_callback);
+      |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/wandering.cpp:11:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   11 |   auto subscription = node->[01;31m[Kcreate_subscription<sensor_msgs::msg::LaserScan>[m[K("/turtle1/scan", 0, topic_callback);
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/wandering.cpp:11:98:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ was not declared in this scope
+   11 | _subscription<sensor_msgs::msg::LaserScan>("/turtle1/scan", 0, [01;31m[Ktopic_callback[m[K);
+      |                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/wandering.dir/build.make:63: CMakeFiles/wandering.dir/src/wandering.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/wandering.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
