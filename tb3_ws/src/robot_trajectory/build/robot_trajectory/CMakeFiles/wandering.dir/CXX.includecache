@@ -9,6 +9,8 @@
 /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/wandering.cpp
 chrono
 -
+Eigen/Dense
+-
 rclcpp/rclcpp.hpp
 /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/rclcpp/rclcpp.hpp
 sensor_msgs/msg/laser_scan.hpp

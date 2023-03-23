@@ -21,6 +21,7 @@ find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(Eigen3 REQUIRED)
 
 add_executable(square src/square.cpp)
 ament_target_dependencies(square rclcpp geometry_msgs)
@@ -29,7 +30,7 @@ add_executable(square_odom src/square_odom.cpp)
 ament_target_dependencies(square_odom rclcpp nav_msgs)
 
 add_executable(wandering src/wandering.cpp)
-ament_target_dependencies(wandering rclcpp sensor_msgs)
+ament_target_dependencies(wandering rclcpp sensor_msgs Eigen3)
 
 install(TARGETS
    square
