@@ -1,5 +1,4 @@
 #include <chrono>
-#include <Eigen/Dense>
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/laser_scan.hpp"
 #include "geometry_msgs/msg/twist.hpp"
@@ -9,13 +8,21 @@ using namespace std::chrono_literals;
 void scan_callback(sensor_msgs::msg::LaserScan::SharedPtr msg)
 {
     auto v = msg->ranges;
-    int start_index = 0, end_index = 9;
-    Eigen::VectorXd segment = v.segment(start_index, end_index - start_index + 1);
-    double min = segment.minCoeff();
+    double min = 9999;
+    for (int i=0; i<9; i++)
+    {
+        if (ranges[i]<min){
+            min = ranges[i];
+        }
+    }
     std::cout << "Mínimo: " << min << std::endl;
-    int start_index = 350, end_index = 359;
-    Eigen::VectorXd segment = v.segment(start_index, end_index - start_index + 1);
-    double min = segment.minCoeff();
+    min = 9999;
+    for (int i=350; i<359; i++)
+    {
+        if (ranges[i]<min){
+            min = ranges[i];
+        }
+    }
     std::cout << "Mínimo: " << min << std::endl;
     
 
