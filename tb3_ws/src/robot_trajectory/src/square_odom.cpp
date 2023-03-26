@@ -48,7 +48,7 @@ int main(int argc, char * argv[])
   double square_length = node->get_parameter("square_length").get_parameter_value().get<double>();
   for(int j=0; j<4; j++){
     int n= square_length / (0.01 * linear_speed);
-    while (rclcpp::ok() && (distance - 0.01*linear_speed < square_length*j)) {
+    while (rclcpp::ok() && (fabs(distance - n) > 0.01)) {
       
       // move forward
       message.linear.x = linear_speed;
@@ -62,7 +62,7 @@ int main(int argc, char * argv[])
     
     
     n = (3.1416 / 2) / (0.01 * angular_speed);
-    while (rclcpp::ok() && (angle_diff - angular_speed*0.01 < j*(M_PI/2))) {
+    while (rclcpp::ok() && (fabs(angle_diff - n) > 0.01)) {
       
       // turn
       message.angular.z = angular_speed;
