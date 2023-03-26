@@ -62,7 +62,7 @@ int main(int argc, char * argv[])
     
     
     n = (3.1416 / 2) / (0.01 * angular_speed);
-    while (rclcpp::ok() && (angle<n)) {
+    while (rclcpp::ok() && (angle_diff<n)) {
       
       // turn
       message.angular.z = angular_speed;

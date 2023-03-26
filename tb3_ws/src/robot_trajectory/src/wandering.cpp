@@ -11,16 +11,16 @@ void scan_callback(sensor_msgs::msg::LaserScan::SharedPtr msg)
     double min = 9999;
     for (int i=0; i<9; i++)
     {
-        if (ranges[i]<min){
-            min = ranges[i];
+        if (v[i]<min){
+            min = v[i];
         }
     }
     std::cout << "Mínimo: " << min << std::endl;
     min = 9999;
     for (int i=350; i<359; i++)
     {
-        if (ranges[i]<min){
-            min = ranges[i];
+        if (v[i]<min){
+            min = v[i];
         }
     }
     std::cout << "Mínimo: " << min << std::endl;
