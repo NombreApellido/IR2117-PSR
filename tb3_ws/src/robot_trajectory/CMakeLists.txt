@@ -22,12 +22,13 @@ find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(Eigen3 REQUIRED)
+include_directories(${EIGEN3_INCLUDE_DIRS})
 
 add_executable(square src/square.cpp)
 ament_target_dependencies(square rclcpp geometry_msgs)
 
 add_executable(square_odom src/square_odom.cpp)
-ament_target_dependencies(square_odom rclcpp nav_msgs)
+ament_target_dependencies(square_odom rclcpp geometry_msgs nav_msgs Eigen3)
 
 add_executable(wandering src/wandering.cpp)
 ament_target_dependencies(wandering rclcpp sensor_msgs Eigen3)
