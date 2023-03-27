@@ -3,38 +3,30 @@
 #include "nav_msgs/msg/odometry.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 #include <math.h> 
+#include <cmath>
 #include <Eigen/Geometry>
 
-double x_pos=0.0, y_pos=0.0, angle = 0.0, x = 0.0, y = 0.0, z = 0.0, w = 0.0, ini_angle = 0.0, distance = 0.0, angle_diff = 0.0;
-Eigen::Vector3d ini_pos(0.0, 0.0, 0.0);
-Eigen::Vector3d posicion_actual(0.0, 0.0, 0.0);
-using namespace std::chrono_literals;
+double x_pos=0.0, y_pos=0.0, angle = 0.0, x = 0.0, y = 0.0, z = 0.0, w = 0.0, ini_angle = 0.0, distance = 0.0, angle_diff = 0.0, ini_pos = 0.0;
 
-Eigen::Vector3d calcularPosicion(const Eigen::Quaterniond& q) {
-    Eigen::Vector3d pos(0.0, 0.0, 0.0);
-    Eigen::Vector3d d(1.0, 0.0, 0.0);
+struct Quaternion {
+    double w, x, y, z;
+};
 
-    pos += d * 2 * (q.x()*q.z() + q.w()*q.y());
-    d = Eigen::Vector3d(0.0, 1.0, 0.0);
-    pos += d * 2 * (q.y()*q.z() - q.w()*q.x());
-    d = Eigen::Vector3d(0.0, 0.0, 1.0);
-    pos += d * (1 - 2*q.x()*q.x() - 2*q.y()*q.y());
-
-    return pos;
+Quaternion normalize(const Quaternion& q) {
+    double norm = sqrt(q.w*q.w + q.x*q.x + q.y*q.y + q.z*q.z);
+    Quaternion res = { q.w/norm, q.x/norm, q.y/norm, q.z/norm };
+    return res;
 }
 
-double angulo(const Eigen::Quaterniond& q)
-{
-    return atan2(2*(q.w()*q.z()+q.x()*q.y()), 1-2*(q.y()*q.y()+q.z()*q.z()));
+double toDegrees(double radians) {
+    return radians * 180.0 / M_PI;
 }
 
-
-double anguloActual(const Eigen::Quaterniond& q, double anguloInicial)
-{
-    Eigen::Quaterniond q0(1, 0, 0, 0); // Cuaternión que representa la rotación inicial (sin rotación).
-    Eigen::Quaterniond qr = q * q0.inverse(); // Cuaternión que representa la rotación actual.
-    Eigen::AngleAxisd aa(qr); // Conversión del cuaternión a un eje y ángulo de rotación.
-    return aa.angle() - anguloInicial; // Ángulo de rotación actual, ajustado por el ángulo inicial.
+double angleFromQuaternion(const Quaternion& q) {
+    Quaternion qn = normalize(q);
+    double w = qn.w, x = qn.x, y = qn.y, z = qn.z;
+    double angle = 2.0 * acos(w);
+    return toDegrees(angle);
 }
 
 void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
@@ -43,24 +35,19 @@ void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
     y = msg -> pose.pose.orientation.y;
     z = msg -> pose.pose.orientation.z;
     w = msg -> pose.pose.orientation.w;
-    Eigen::Quaterniond q(w, x, y, z);
-    
-    
-    if (ini_pos.isApprox(Eigen::Vector3d::Zero(), 1e-6) && ini_angle == 0) {
-        Eigen::Vector3d ini0 = calcularPosicion(q);
-        ini_pos = ini0.transpose();
-        ini_angle = angulo(q);
-    }
-    
-    angle = angulo(q);
-    angle_diff = angle - ini_angle;
     x_pos = msg -> pose.pose.position.x;
     y_pos = msg -> pose.pose.position.y;
+    if (ini_angle == 0.0) {
+        Quaternion q = {x,y,z,w};
+        ini_angle = angleFromQuaternion(q);
+        ini_pos = sqrt(x_pos*x_pos + y_pos*y_pos);
+    }
+    Quaternion q = {x,y,z,w};
+    angle = angleFromQuaternion(q);
+    angle_diff = abs(angle - ini_angle);
     
     
-    Eigen::Vector3d pos = calcularPosicion(q);
-    posicion_actual = pos.transpose();
-    distance = (posicion_actual - ini_pos).norm();
+    distance = sqrt(x_pos*x_pos + y_pos*y_pos);
     std::cout << "Position x: " << x << std::endl;
     std::cout << "Position y: " << y << std::endl;
     std::cout << "Angle: " << angle << std::endl;
@@ -87,7 +74,7 @@ int main(int argc, char * argv[])
   double angular_speed = node->get_parameter("angular_speed").get_parameter_value().get<double>();
   double square_length = node->get_parameter("square_length").get_parameter_value().get<double>();
   for(int j=0; j<4; j++){
-    int n= square_length / (0.01 * linear_speed);
+    int n= square_length;
     while (rclcpp::ok() && (distance<n)) {
       
       // move forward
@@ -101,8 +88,8 @@ int main(int argc, char * argv[])
     publisher->publish(message);
     
     
-    n = (3.1416 / 2) / (0.01 * angular_speed);
-    while (rclcpp::ok() && (((angle_diff*3.1416)/180)<n)) {
+    n = 3.1416/2;
+    while (rclcpp::ok() && ((angle_diff*3.1416)/180)<n) {
       
       // turn
       message.angular.z = angular_speed;
