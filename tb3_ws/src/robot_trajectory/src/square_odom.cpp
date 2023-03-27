@@ -65,29 +65,50 @@ int main(int argc, char * argv[])
   double square_length = node->get_parameter("square_length").get_parameter_value().get<double>();
   
   const nav_msgs::msg::Odometry::SharedPtr msg;
-  for(int j=1; j<=4; j++){
-    while (rclcpp::ok() && (distance<square_length)) {
+  for(int j=1; j<=4; j++)
+  {
+      while (rclcpp::ok() && (distance<square_length)) {
       
-      // move forward
-      message.linear.x = linear_speed;
-      publisher->publish(message);
-      rclcpp::spin_some(node);
-      loop_rate.sleep();
-    }
+          // move forward
+          message.linear.x = linear_speed;
+          publisher->publish(message);
+          rclcpp::spin_some(node);
+          loop_rate.sleep();
+        }
     
-    message.linear.x = 0.0;
-    publisher->publish(message);
-    
-    while (rclcpp::ok() && (angle<((3.1416/2)+ini_angle))) {
-      
-      // turn
-      message.angular.z = angular_speed;
-      publisher->publish(message);
-      rclcpp::spin_some(node);
-      loop_rate.sleep();
-    }
-    message.angular.z = 0;
-    publisher->publish(message);
+        message.linear.x = 0;
+        publisher->publish(message);
+        rclcpp::spin_some(node);
+        loop_rate.sleep();
+        ini_posx = x_pos;
+        ini_posy = y_pos;
+        loop_rate.sleep();
+        
+        double target_angle = (3.1416/2)+ini_angle;
+        if (target_angle > 2*3.1416) { 
+      	target_angle = 6.28;
+  	
+        }
+        while (rclcpp::ok() && (angle<target_angle)) 
+        {
+            // turn
+            message.linear.x = 0;
+            if ( (target_angle - angle) > 0.25 ) 
+            {
+   	         message.angular.z = angular_speed;
+            } 
+            else 
+            {
+                message.angular.z = 0.1;
+            }
+            publisher->publish(message);
+            rclcpp::spin_some(node);
+            loop_rate.sleep();
+        }
+        message.angular.z = 0;
+        publisher->publish(message);
+        ini_angle=angle;
+        loop_rate.sleep();
    }
   // send zero velocity to topic
   rclcpp::shutdown();
