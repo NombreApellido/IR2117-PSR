@@ -7,53 +7,43 @@
 #include <Eigen/Geometry>
 using namespace std::chrono_literals;
 
-double x_pos=0.0, y_pos=0.0, angle = 0.0, x = 0.0, y = 0.0, z = 0.0, w = 0.0, ini_angle = 0.0, distance = 0.0, angle_diff = 0.0, ini_pos = 0.0;
+double x_pos=0.0, y_pos=0.0, angle = 0.0, x = 0.0, y = 0.0, z = 0.0, w = 0.0, ini_angle = 0.0, distance = 0.0, angle_diff = 0.0, ini_posx = 0.0, ini_posy = 0.0, sin=0.0, cos=0.0;
 
-struct Quaternion {
-    double w, x, y, z;
-};
-
-Quaternion normalize(const Quaternion& q) {
-    double norm = sqrt(q.w*q.w + q.x*q.x + q.y*q.y + q.z*q.z);
-    Quaternion res = { q.w/norm, q.x/norm, q.y/norm, q.z/norm };
-    return res;
-}
-
-double toDegrees(double radians) {
-    return radians * 180.0 / M_PI;
-}
-
-double angleFromQuaternion(const Quaternion& q) {
-    Quaternion qn = normalize(q);
-    double w = qn.w, x = qn.x, y = qn.y, z = qn.z;
-    double angle = 2.0 * acos(w);
-    return toDegrees(angle);
-}
 
 void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
 {
+   
+   
+    if (ini_angle == 0.0 && ini_posx == 0.0 && ini_posy == 0.0) {
+         x = msg -> pose.pose.orientation.x;
+         y = msg -> pose.pose.orientation.y;
+         z = msg -> pose.pose.orientation.z;
+         w = msg -> pose.pose.orientation.w;
+         sin = 2* (w*z + x*y);
+         cos = 1 - 2*(y*y + z*z);
+         ini_angle = atan2(sin, cos);
+         ini_posx = x;
+         ini_posy = y;
+    }
     x = msg -> pose.pose.orientation.x;
     y = msg -> pose.pose.orientation.y;
     z = msg -> pose.pose.orientation.z;
     w = msg -> pose.pose.orientation.w;
     x_pos = msg -> pose.pose.position.x;
     y_pos = msg -> pose.pose.position.y;
-    if (ini_angle == 0.0 && ini_pos == 0.0) {
-        Quaternion q = {x,y,z,w};
-        ini_angle = angleFromQuaternion(q);
-        ini_pos = sqrt(x_pos*x_pos + y_pos*y_pos);
-    }
-    Quaternion q = {x,y,z,w};
-    angle = angleFromQuaternion(q);
+    sin = 2* (w*z + x*y);
+    cos = 1 - 2*(y*y + z*z);
+    angle = atan2(sin, cos);
     angle_diff = abs(angle - ini_angle);
     
     
-    distance = sqrt(x_pos*x_pos + y_pos*y_pos) - ini_pos;
+    distance = std::sqrt(std::pow(x_pos - ini_posx, 2) + std::pow(y_pos - ini_posy, 2));
     std::cout << "Position x: " << x << std::endl;
     std::cout << "Position y: " << y << std::endl;
     std::cout << "Angle: " << angle << std::endl;
     std::cout << "Distance: " << distance << std::endl;
     std::cout << "Angle difference: " << angle_diff << std::endl;
+    std::cout << "··················" << std::endl;
 }
 
 
@@ -87,7 +77,7 @@ int main(int argc, char * argv[])
     message.linear.x = 0.0;
     publisher->publish(message);
     
-    while (rclcpp::ok() && ((angle_diff*3.1416)/180)<3.1416/2) {
+    while (rclcpp::ok() && ((angle_diff*3.1416)/180)<((3.1416/2)+ini_angle)) {
       
       // turn
       message.angular.z = angular_speed;
