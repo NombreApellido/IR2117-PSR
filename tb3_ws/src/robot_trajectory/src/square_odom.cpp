@@ -48,7 +48,7 @@ void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
     angle_diff = abs(angle - ini_angle);
     
     
-    distance = sqrt(x_pos*x_pos + y_pos*y_pos);
+    distance = sqrt(x_pos*x_pos + y_pos*y_pos) - ini_pos;
     std::cout << "Position x: " << x << std::endl;
     std::cout << "Position y: " << y << std::endl;
     std::cout << "Angle: " << angle << std::endl;
@@ -75,8 +75,7 @@ int main(int argc, char * argv[])
   double angular_speed = node->get_parameter("angular_speed").get_parameter_value().get<double>();
   double square_length = node->get_parameter("square_length").get_parameter_value().get<double>();
   for(int j=0; j<4; j++){
-    int n= square_length;
-    while (rclcpp::ok() && (distance<n)) {
+    while (rclcpp::ok() && (distance<square_length)) {
       
       // move forward
       message.linear.x = linear_speed;
@@ -88,9 +87,7 @@ int main(int argc, char * argv[])
     message.linear.x = 0.0;
     publisher->publish(message);
     
-    
-    n = 3.1416/2;
-    while (rclcpp::ok() && ((angle_diff*3.1416)/180)<n) {
+    while (rclcpp::ok() && ((angle_diff*3.1416)/180)<3.1416/2) {
       
       // turn
       message.angular.z = angular_speed;
