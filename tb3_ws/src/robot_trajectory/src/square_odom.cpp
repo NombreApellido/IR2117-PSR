@@ -5,6 +5,7 @@
 #include <math.h> 
 #include <cmath>
 #include <Eigen/Geometry>
+using namespace std::chrono_literals;
 
 double x_pos=0.0, y_pos=0.0, angle = 0.0, x = 0.0, y = 0.0, z = 0.0, w = 0.0, ini_angle = 0.0, distance = 0.0, angle_diff = 0.0, ini_pos = 0.0;
 
@@ -37,7 +38,7 @@ void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
     w = msg -> pose.pose.orientation.w;
     x_pos = msg -> pose.pose.position.x;
     y_pos = msg -> pose.pose.position.y;
-    if (ini_angle == 0.0) {
+    if (ini_angle == 0.0 && ini_pos == 0.0) {
         Quaternion q = {x,y,z,w};
         ini_angle = angleFromQuaternion(q);
         ini_pos = sqrt(x_pos*x_pos + y_pos*y_pos);
