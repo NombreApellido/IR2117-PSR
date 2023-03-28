@@ -4,6 +4,7 @@
 #include "geometry_msgs/msg/twist.hpp"
 using namespace std::chrono_literals;
 double min = 9999;
+bool obstacle_detected = false, approaching_obstacle = true;
 
 void scan_callback(sensor_msgs::msg::LaserScan::SharedPtr msg)
 {
@@ -41,14 +42,34 @@ int main(int argc, char * argv[])
   rclcpp::WallRate loop_rate(10ms);
   geometry_msgs::msg::Twist message;
   while (rclcpp::ok()) {
-      message.linear.x = 0.2; //Velocidad lineal constante para avanzar
-      if (min <= 1.0){ // Si encuentra obstáculo a 1 metro, detiene el robot
-          message.linear.x = 0.0;
+      if (approaching_obstacle) { // Si se está acercando al obstáculo
+          if (min > 1.0) { // Si aún no se detecta el obstáculo
+              message.linear.x = 0.2; // Velocidad lineal constante para avanzar hacia adelante
+              message.angular.z = 0.0;
+          }
+          else { // Si se detecta el obstáculo
+              approaching_obstacle = false;
+              obstacle_detected = true;
+              message.linear.x = 0.0; // Detiene el avance
+              message.angular.z = 0.2; // Velocidad angular constante para girar a la izquierda
+          }
+      }
+      else if (obstacle_detected) { // Si se detecta el obstáculo
+          if (min <= 1.0) { // Si todavía detecta el obstáculo
+              message.linear.x = 0.0; // Detiene el avance
+              message.angular.z = 0.2; // Velocidad angular constante para girar a la izquierda
+          }
+          else { // Si ya no detecta el obstáculo
+              obstacle_detected = false;
+              approaching_obstacle = true;
+              message.linear.x = 0.2; // Velocidad lineal constante para avanzar hacia adelante
+              message.angular.z = 0.0;
+          }
       }
       publisher->publish(message);
       rclcpp::spin_some(node);
       loop_rate.sleep();
-  }
+      }
   rclcpp::shutdown();
   return 0;
 }
