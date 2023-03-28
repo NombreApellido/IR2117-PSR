@@ -3,28 +3,28 @@
 #include "sensor_msgs/msg/laser_scan.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 using namespace std::chrono_literals;
-double min = 9999;
-bool obstacle_detected = false, approaching_obstacle = true;
+double min, min09, min350;
+bool obstacle_detected = false, approaching_obstacle = true, turn_left = false;
 
 void scan_callback(sensor_msgs::msg::LaserScan::SharedPtr msg)
 {
     auto v = msg->ranges;
-    min = 9999;
+    min09 = 9999;
     for (int i=0; i<9; i++)
     {
-        if (v[i]<min){
-            min = v[i];
+        if (v[i]<min09){
+            min09 = v[i];
         }
     }
-    std::cout << "Mínimo[0..9]: " << min << std::endl;
-    min = 9999;
+    std::cout << "Mínimo[0..9]: " << min09 << std::endl;
+    min350 = 9999;
     for (int i=350; i<359; i++)
     {
-        if (v[i]<min){
-            min = v[i];
+        if (v[i]<min350){
+            min350 = v[i];
         }
     }
-    std::cout << "Mínimo[350..359]: " << min << std::endl;
+    std::cout << "Mínimo[350..359]: " << min350 << std::endl;
     
     
     std::cout << "··················" << std::endl;
@@ -51,13 +51,25 @@ int main(int argc, char * argv[])
               approaching_obstacle = false;
               obstacle_detected = true;
               message.linear.x = 0.0; // Detiene el avance
-              message.angular.z = 0.2; // Velocidad angular constante para girar a la izquierda
+              if (min09 < min350){
+                  message.angular.z = 0.2; // Velocidad angular constante para girar a la izquierda
+                  turn_left = true;
+              }
+              else{
+                  message.angular.z = -0.2; // Velocidad angular constante para girar a la derecha
+                  turn_left = false;
+              }
           }
       }
       else if (obstacle_detected) { // Si se detecta el obstáculo
           if (min <= 1.0) { // Si todavía detecta el obstáculo
               message.linear.x = 0.0; // Detiene el avance
-              message.angular.z = 0.2; // Velocidad angular constante para girar a la izquierda
+              if (turn_left == true) {
+                  message.angular.z = 0.2; // Velocidad angular constante para girar a la izquierda
+              }
+              else{
+                  message.angular.z = -0.2; // Velocidad angular constante para girar a la derecha
+              }
           }
           else { // Si ya no detecta el obstáculo
               obstacle_detected = false;
