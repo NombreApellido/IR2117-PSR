@@ -1,8 +1,0 @@
-[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/wandering.cpp:[m[K In function ‘[01m[Kvoid scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/wandering.cpp:10:20:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kstd::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = float; _Alloc = std::allocator<float>; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
-   10 |     for(int i; i<[01;31m[Kv.size[m[K; i++)
-      |                  [01;31m[K~~^~~~[m[K
-      |                        [32m[K()[m[K
-make[2]: *** [CMakeFiles/wandering.dir/build.make:63: CMakeFiles/wandering.dir/src/wandering.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/wandering.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

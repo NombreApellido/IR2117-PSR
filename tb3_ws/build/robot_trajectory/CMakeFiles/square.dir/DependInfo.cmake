@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/square.cpp" "/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory/CMakeFiles/square.dir/src/square.cpp.o"
+  "/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/square.cpp" "/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory/CMakeFiles/square.dir/src/square.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,6 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/include/eigen3"
   "/opt/ros/foxy/include"
   )
 
