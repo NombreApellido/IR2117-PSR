@@ -3,7 +3,7 @@
 #include "sensor_msgs/msg/laser_scan.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 using namespace std::chrono_literals;
-double min, min09, min350;
+double min09, min350;
 bool obstacle_detected = false, approaching_obstacle = true, turn_left = false;
 
 void scan_callback(sensor_msgs::msg::LaserScan::SharedPtr msg)
@@ -43,7 +43,7 @@ int main(int argc, char * argv[])
   geometry_msgs::msg::Twist message;
   while (rclcpp::ok()) {
       if (approaching_obstacle) { // Si se está acercando al obstáculo
-          if (min > 1.0) { // Si aún no se detecta el obstáculo
+          if (min09 > 1.0 || min350 > 1.0) { // Si aún no se detecta el obstáculo
               message.linear.x = 0.2; // Velocidad lineal constante para avanzar hacia adelante
               message.angular.z = 0.0;
           }
@@ -62,7 +62,7 @@ int main(int argc, char * argv[])
           }
       }
       else if (obstacle_detected) { // Si se detecta el obstáculo
-          if (min <= 1.0) { // Si todavía detecta el obstáculo
+          if (min09 <= 1.0 || min350 <= 1.0) { // Si todavía detecta el obstáculo
               message.linear.x = 0.0; // Detiene el avance
               if (turn_left == true) {
                   message.angular.z = 0.2; // Velocidad angular constante para girar a la izquierda
