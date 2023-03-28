@@ -1,0 +1,21 @@
+[0.034s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles -- -j6 -l6
+[0.070s] [35m[1mScanning dependencies of target detector[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/detector.dir/src/detector.cpp.o[0m
+[1.107s] [01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/detector.cpp:[m[K In function ‘[01m[Kvoid callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.107s] [01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/detector.cpp:15:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kobs_angle_min[m[K’ was not declared in this scope
+[1.107s]    15 |         if ((angle >= [01;31m[Kobs_angle_min[m[K) and (angle <= obs_angle_max)) {
+[1.107s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.109s] [01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/detector.cpp:15:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kobs_angle_max[m[K’ was not declared in this scope
+[1.109s]    15 |         if ((angle >= obs_angle_min) and (angle <= [01;31m[Kobs_angle_max[m[K)) {
+[1.109s]       |                                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[1.111s] [01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/detector.cpp:16:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kobs_threshold[m[K’ was not declared in this scope
+[1.111s]    16 |            if (range <= [01;31m[Kobs_threshold[m[K){
+[1.111s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.134s] [01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/detector.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.135s] [01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/detector.cpp:34:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kobs_angle_min[m[K’ was not declared in this scope
+[1.135s]    34 |   [01;31m[Kobs_angle_min[m[K = node->get_parameter("obs_angle_min").get_parameter_value().get<double>();
+[1.135s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[2.469s] make[2]: *** [CMakeFiles/detector.dir/build.make:63: CMakeFiles/detector.dir/src/detector.cpp.o] Error 1
+[2.469s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/detector.dir/all] Error 2
+[2.470s] make: *** [Makefile:141: all] Error 2
+[2.472s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles -- -j6 -l6
