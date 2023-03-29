@@ -1,0 +1,423 @@
+[0.000000] (-) TimerEvent: {}
+[0.000191] (robot_trajectory) JobQueued: {'identifier': 'robot_trajectory', 'dependencies': OrderedDict()}
+[0.000216] (robot_trajectory) JobStarted: {'identifier': 'robot_trajectory'}
+[0.069038] (robot_trajectory) JobProgress: {'identifier': 'robot_trajectory', 'progress': 'cmake'}
+[0.069277] (robot_trajectory) Command: {'cmd': ['/usr/bin/cmake', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory', '-DCMAKE_INSTALL_PREFIX=/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory'], 'cwd': '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marc'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1192'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/marc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '939'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=262a9df2641c15fbcdea778c64246ba7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'marc'), ('JOURNAL_STREAM', '8:29399'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'marc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/marc-VirtualBox:@/tmp/.ICE-unix/1230,unix/marc-VirtualBox:/tmp/.ICE-unix/1230'), ('INVOCATION_ID', 'b92dd746c67a4fbeaf46d165677a201c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e731a93d_0350_4ee0_a6bf_dcb4c86f75a5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=262a9df2641c15fbcdea778c64246ba7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098429] (-) TimerEvent: {}
+[0.199374] (-) TimerEvent: {}
+[0.301951] (-) TimerEvent: {}
+[0.402544] (-) TimerEvent: {}
+[0.502796] (-) TimerEvent: {}
+[0.546621] (robot_trajectory) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.603346] (-) TimerEvent: {}
+[0.703982] (-) TimerEvent: {}
+[0.804732] (-) TimerEvent: {}
+[0.842738] (robot_trajectory) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.883996] (robot_trajectory) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.904866] (-) TimerEvent: {}
+[1.022331] (-) TimerEvent: {}
+[1.130571] (-) TimerEvent: {}
+[1.172384] (robot_trajectory) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.193328] (robot_trajectory) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.246822] (-) TimerEvent: {}
+[1.350581] (-) TimerEvent: {}
+[1.465290] (-) TimerEvent: {}
+[1.477500] (robot_trajectory) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.515273] (robot_trajectory) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.516900] (robot_trajectory) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.530101] (robot_trajectory) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.578887] (-) TimerEvent: {}
+[1.699015] (-) TimerEvent: {}
+[1.789268] (robot_trajectory) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.794837] (robot_trajectory) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.806627] (-) TimerEvent: {}
+[1.911079] (-) TimerEvent: {}
+[2.020496] (-) TimerEvent: {}
+[2.028113] (robot_trajectory) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.050950] (robot_trajectory) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.062528] (robot_trajectory) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.074521] (robot_trajectory) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.132714] (-) TimerEvent: {}
+[2.152246] (robot_trajectory) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.152388] (robot_trajectory) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.246346] (-) TimerEvent: {}
+[2.368220] (-) TimerEvent: {}
+[2.493437] (-) TimerEvent: {}
+[2.617244] (-) TimerEvent: {}
+[2.742671] (-) TimerEvent: {}
+[2.838794] (robot_trajectory) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.843090] (-) TimerEvent: {}
+[2.943940] (-) TimerEvent: {}
+[2.982051] (robot_trajectory) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.004340] (robot_trajectory) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.045409] (-) TimerEvent: {}
+[3.148346] (-) TimerEvent: {}
+[3.240235] (robot_trajectory) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.250270] (-) TimerEvent: {}
+[3.346550] (robot_trajectory) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.355030] (-) TimerEvent: {}
+[3.469860] (-) TimerEvent: {}
+[3.572479] (-) TimerEvent: {}
+[3.618531] (robot_trajectory) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.673838] (-) TimerEvent: {}
+[3.774984] (-) TimerEvent: {}
+[3.797901] (robot_trajectory) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.810921] (robot_trajectory) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.822618] (robot_trajectory) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.883320] (-) TimerEvent: {}
+[3.986330] (-) TimerEvent: {}
+[4.067889] (robot_trajectory) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.068315] (robot_trajectory) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.086551] (-) TimerEvent: {}
+[4.188982] (-) TimerEvent: {}
+[4.294501] (-) TimerEvent: {}
+[4.322003] (robot_trajectory) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.323050] (robot_trajectory) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.395923] (-) TimerEvent: {}
+[4.496913] (-) TimerEvent: {}
+[4.535805] (robot_trajectory) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.536155] (robot_trajectory) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.611763] (-) TimerEvent: {}
+[4.730542] (-) TimerEvent: {}
+[4.771472] (robot_trajectory) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.774332] (robot_trajectory) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.830815] (-) TimerEvent: {}
+[4.931401] (-) TimerEvent: {}
+[5.032066] (-) TimerEvent: {}
+[5.134525] (-) TimerEvent: {}
+[5.147694] (robot_trajectory) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[5.222559] (robot_trajectory) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[5.244449] (-) TimerEvent: {}
+[5.346783] (-) TimerEvent: {}
+[5.365597] (robot_trajectory) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[5.449155] (-) TimerEvent: {}
+[5.524323] (robot_trajectory) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.597869] (-) TimerEvent: {}
+[5.703733] (-) TimerEvent: {}
+[5.760948] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.765612] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.765992] (robot_trajectory) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.766130] (robot_trajectory) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.771813] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.772031] (robot_trajectory) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.773921] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.775580] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.777127] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.790340] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.790547] (robot_trajectory) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.792803] (robot_trajectory) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.798083] (robot_trajectory) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.832933] (-) TimerEvent: {}
+[5.834461] (robot_trajectory) StdoutLine: {'line': b'-- Generating done\n'}
+[5.840067] (robot_trajectory) StdoutLine: {'line': b'-- Build files have been written to: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory\n'}
+[5.877717] (robot_trajectory) CommandEnded: {'returncode': 0}
+[5.878724] (robot_trajectory) JobProgress: {'identifier': 'robot_trajectory', 'progress': 'build'}
+[5.878760] (robot_trajectory) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory', '--', '-j1', '-l1'], 'cwd': '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marc'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1192'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/marc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '939'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=262a9df2641c15fbcdea778c64246ba7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'marc'), ('JOURNAL_STREAM', '8:29399'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'marc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/marc-VirtualBox:@/tmp/.ICE-unix/1230,unix/marc-VirtualBox:/tmp/.ICE-unix/1230'), ('INVOCATION_ID', 'b92dd746c67a4fbeaf46d165677a201c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e731a93d_0350_4ee0_a6bf_dcb4c86f75a5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=262a9df2641c15fbcdea778c64246ba7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.941369] (-) TimerEvent: {}
+[5.987010] (robot_trajectory) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target wandering\x1b[0m\n'}
+[6.041967] (-) TimerEvent: {}
+[6.142735] (-) TimerEvent: {}
+[6.242965] (-) TimerEvent: {}
+[6.296813] (robot_trajectory) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/wandering.dir/src/wandering.cpp.o\x1b[0m\n'}
+[6.343146] (-) TimerEvent: {}
+[6.443918] (-) TimerEvent: {}
+[6.544539] (-) TimerEvent: {}
+[6.651662] (-) TimerEvent: {}
+[6.784137] (-) TimerEvent: {}
+[6.931076] (-) TimerEvent: {}
+[7.047327] (-) TimerEvent: {}
+[7.154910] (-) TimerEvent: {}
+[7.262352] (-) TimerEvent: {}
+[7.380516] (-) TimerEvent: {}
+[7.492881] (-) TimerEvent: {}
+[7.595136] (-) TimerEvent: {}
+[7.712547] (-) TimerEvent: {}
+[7.831309] (-) TimerEvent: {}
+[7.943756] (-) TimerEvent: {}
+[8.045922] (-) TimerEvent: {}
+[8.161052] (-) TimerEvent: {}
+[8.266130] (-) TimerEvent: {}
+[8.367812] (-) TimerEvent: {}
+[8.475321] (-) TimerEvent: {}
+[8.576227] (-) TimerEvent: {}
+[8.690655] (-) TimerEvent: {}
+[8.805642] (-) TimerEvent: {}
+[8.926675] (-) TimerEvent: {}
+[9.055464] (-) TimerEvent: {}
+[9.167196] (-) TimerEvent: {}
+[9.282115] (-) TimerEvent: {}
+[9.384194] (-) TimerEvent: {}
+[9.488541] (-) TimerEvent: {}
+[9.595742] (-) TimerEvent: {}
+[9.702758] (-) TimerEvent: {}
+[9.805187] (-) TimerEvent: {}
+[9.914627] (-) TimerEvent: {}
+[10.044202] (-) TimerEvent: {}
+[10.162503] (-) TimerEvent: {}
+[10.263342] (-) TimerEvent: {}
+[10.366412] (-) TimerEvent: {}
+[10.484017] (-) TimerEvent: {}
+[10.591462] (-) TimerEvent: {}
+[10.717491] (-) TimerEvent: {}
+[10.838541] (-) TimerEvent: {}
+[10.957963] (-) TimerEvent: {}
+[11.075235] (-) TimerEvent: {}
+[11.182352] (-) TimerEvent: {}
+[11.286618] (-) TimerEvent: {}
+[11.397250] (-) TimerEvent: {}
+[11.516468] (-) TimerEvent: {}
+[11.634207] (-) TimerEvent: {}
+[11.741862] (-) TimerEvent: {}
+[11.852735] (-) TimerEvent: {}
+[11.961253] (-) TimerEvent: {}
+[12.069693] (-) TimerEvent: {}
+[12.179630] (-) TimerEvent: {}
+[12.310349] (-) TimerEvent: {}
+[12.417646] (-) TimerEvent: {}
+[12.525069] (-) TimerEvent: {}
+[12.643203] (-) TimerEvent: {}
+[12.761345] (-) TimerEvent: {}
+[12.868981] (-) TimerEvent: {}
+[12.977126] (-) TimerEvent: {}
+[13.083687] (-) TimerEvent: {}
+[13.191059] (-) TimerEvent: {}
+[13.298468] (-) TimerEvent: {}
+[13.406602] (-) TimerEvent: {}
+[13.514429] (-) TimerEvent: {}
+[13.620677] (-) TimerEvent: {}
+[13.723717] (-) TimerEvent: {}
+[13.831565] (-) TimerEvent: {}
+[13.942993] (-) TimerEvent: {}
+[14.053360] (-) TimerEvent: {}
+[14.170327] (-) TimerEvent: {}
+[14.275277] (-) TimerEvent: {}
+[14.383965] (-) TimerEvent: {}
+[14.492592] (-) TimerEvent: {}
+[14.608943] (-) TimerEvent: {}
+[14.710635] (-) TimerEvent: {}
+[14.814128] (-) TimerEvent: {}
+[14.920585] (-) TimerEvent: {}
+[15.030729] (-) TimerEvent: {}
+[15.135156] (-) TimerEvent: {}
+[15.235814] (-) TimerEvent: {}
+[15.350401] (-) TimerEvent: {}
+[15.452894] (-) TimerEvent: {}
+[15.563713] (-) TimerEvent: {}
+[15.672608] (-) TimerEvent: {}
+[15.780136] (-) TimerEvent: {}
+[15.887232] (-) TimerEvent: {}
+[16.006368] (-) TimerEvent: {}
+[16.115968] (-) TimerEvent: {}
+[16.231653] (-) TimerEvent: {}
+[16.338324] (-) TimerEvent: {}
+[16.467330] (-) TimerEvent: {}
+[16.586351] (-) TimerEvent: {}
+[16.714595] (-) TimerEvent: {}
+[16.818395] (-) TimerEvent: {}
+[16.919646] (-) TimerEvent: {}
+[17.037372] (-) TimerEvent: {}
+[17.154695] (-) TimerEvent: {}
+[17.264292] (-) TimerEvent: {}
+[17.376955] (-) TimerEvent: {}
+[17.485779] (-) TimerEvent: {}
+[17.602091] (-) TimerEvent: {}
+[17.703446] (-) TimerEvent: {}
+[17.821030] (-) TimerEvent: {}
+[17.939332] (-) TimerEvent: {}
+[18.047725] (-) TimerEvent: {}
+[18.164930] (-) TimerEvent: {}
+[18.283176] (-) TimerEvent: {}
+[18.349138] (robot_trajectory) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable wandering\x1b[0m\n'}
+[18.402401] (-) TimerEvent: {}
+[18.509263] (-) TimerEvent: {}
+[18.637632] (-) TimerEvent: {}
+[18.741311] (-) TimerEvent: {}
+[18.842436] (-) TimerEvent: {}
+[18.874929] (robot_trajectory) StdoutLine: {'line': b'[ 33%] Built target wandering\n'}
+[18.897368] (robot_trajectory) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target square_odom\x1b[0m\n'}
+[18.942554] (-) TimerEvent: {}
+[19.043064] (-) TimerEvent: {}
+[19.146010] (-) TimerEvent: {}
+[19.204809] (robot_trajectory) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o\x1b[0m\n'}
+[19.282367] (-) TimerEvent: {}
+[19.389113] (-) TimerEvent: {}
+[19.498334] (-) TimerEvent: {}
+[19.604465] (-) TimerEvent: {}
+[19.711353] (-) TimerEvent: {}
+[19.827972] (-) TimerEvent: {}
+[19.949266] (-) TimerEvent: {}
+[20.055104] (-) TimerEvent: {}
+[20.173166] (-) TimerEvent: {}
+[20.275075] (-) TimerEvent: {}
+[20.398504] (-) TimerEvent: {}
+[20.517257] (-) TimerEvent: {}
+[20.644254] (-) TimerEvent: {}
+[20.774734] (-) TimerEvent: {}
+[20.875450] (-) TimerEvent: {}
+[20.980929] (-) TimerEvent: {}
+[21.097578] (-) TimerEvent: {}
+[21.214994] (-) TimerEvent: {}
+[21.334352] (-) TimerEvent: {}
+[21.459059] (-) TimerEvent: {}
+[21.570797] (-) TimerEvent: {}
+[21.687005] (-) TimerEvent: {}
+[21.795578] (-) TimerEvent: {}
+[21.902706] (-) TimerEvent: {}
+[22.032786] (-) TimerEvent: {}
+[22.150338] (-) TimerEvent: {}
+[22.258487] (-) TimerEvent: {}
+[22.382928] (-) TimerEvent: {}
+[22.483313] (-) TimerEvent: {}
+[22.602510] (-) TimerEvent: {}
+[22.707930] (-) TimerEvent: {}
+[22.816130] (-) TimerEvent: {}
+[22.924646] (-) TimerEvent: {}
+[23.037363] (-) TimerEvent: {}
+[23.149280] (-) TimerEvent: {}
+[23.256401] (-) TimerEvent: {}
+[23.374441] (-) TimerEvent: {}
+[23.478403] (-) TimerEvent: {}
+[23.578892] (-) TimerEvent: {}
+[23.686342] (-) TimerEvent: {}
+[23.807151] (-) TimerEvent: {}
+[23.923445] (-) TimerEvent: {}
+[24.028654] (-) TimerEvent: {}
+[24.133251] (-) TimerEvent: {}
+[24.234965] (-) TimerEvent: {}
+[24.373651] (-) TimerEvent: {}
+[24.476765] (-) TimerEvent: {}
+[24.606552] (-) TimerEvent: {}
+[24.707081] (-) TimerEvent: {}
+[24.818244] (-) TimerEvent: {}
+[24.942955] (-) TimerEvent: {}
+[25.046489] (-) TimerEvent: {}
+[25.157372] (-) TimerEvent: {}
+[25.268050] (-) TimerEvent: {}
+[25.369828] (-) TimerEvent: {}
+[25.490738] (-) TimerEvent: {}
+[25.591611] (-) TimerEvent: {}
+[25.716425] (-) TimerEvent: {}
+[25.823863] (-) TimerEvent: {}
+[25.931970] (-) TimerEvent: {}
+[26.035650] (-) TimerEvent: {}
+[26.146344] (-) TimerEvent: {}
+[26.271983] (-) TimerEvent: {}
+[26.372579] (-) TimerEvent: {}
+[26.476252] (-) TimerEvent: {}
+[26.576619] (-) TimerEvent: {}
+[26.683265] (-) TimerEvent: {}
+[26.802377] (-) TimerEvent: {}
+[26.909269] (-) TimerEvent: {}
+[27.026963] (-) TimerEvent: {}
+[27.146696] (-) TimerEvent: {}
+[27.271158] (-) TimerEvent: {}
+[27.382385] (-) TimerEvent: {}
+[27.488831] (-) TimerEvent: {}
+[27.589608] (-) TimerEvent: {}
+[27.692965] (-) TimerEvent: {}
+[27.811052] (-) TimerEvent: {}
+[27.919471] (-) TimerEvent: {}
+[28.026691] (-) TimerEvent: {}
+[28.134335] (-) TimerEvent: {}
+[28.251689] (-) TimerEvent: {}
+[28.370396] (-) TimerEvent: {}
+[28.475448] (-) TimerEvent: {}
+[28.577958] (-) TimerEvent: {}
+[28.681243] (-) TimerEvent: {}
+[28.810879] (-) TimerEvent: {}
+[28.928475] (-) TimerEvent: {}
+[29.036081] (-) TimerEvent: {}
+[29.155053] (-) TimerEvent: {}
+[29.264136] (-) TimerEvent: {}
+[29.368566] (-) TimerEvent: {}
+[29.486199] (-) TimerEvent: {}
+[29.595572] (-) TimerEvent: {}
+[29.638243] (robot_trajectory) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable square_odom\x1b[0m\n'}
+[29.711335] (-) TimerEvent: {}
+[29.831711] (-) TimerEvent: {}
+[29.949392] (-) TimerEvent: {}
+[30.054830] (-) TimerEvent: {}
+[30.114381] (robot_trajectory) StdoutLine: {'line': b'[ 66%] Built target square_odom\n'}
+[30.138143] (robot_trajectory) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target square\x1b[0m\n'}
+[30.177277] (-) TimerEvent: {}
+[30.219450] (robot_trajectory) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/square.dir/src/square.cpp.o\x1b[0m\n'}
+[30.286943] (-) TimerEvent: {}
+[30.401088] (-) TimerEvent: {}
+[30.518344] (-) TimerEvent: {}
+[30.636245] (-) TimerEvent: {}
+[30.762264] (-) TimerEvent: {}
+[30.880151] (-) TimerEvent: {}
+[31.002584] (-) TimerEvent: {}
+[31.119770] (-) TimerEvent: {}
+[31.238306] (-) TimerEvent: {}
+[31.346405] (-) TimerEvent: {}
+[31.452646] (-) TimerEvent: {}
+[31.565716] (-) TimerEvent: {}
+[31.678335] (-) TimerEvent: {}
+[31.785845] (-) TimerEvent: {}
+[31.898333] (-) TimerEvent: {}
+[32.000818] (-) TimerEvent: {}
+[32.119259] (-) TimerEvent: {}
+[32.237056] (-) TimerEvent: {}
+[32.355229] (-) TimerEvent: {}
+[32.474345] (-) TimerEvent: {}
+[32.602305] (-) TimerEvent: {}
+[32.709482] (-) TimerEvent: {}
+[32.814793] (-) TimerEvent: {}
+[32.924945] (-) TimerEvent: {}
+[33.032011] (-) TimerEvent: {}
+[33.150394] (-) TimerEvent: {}
+[33.254369] (-) TimerEvent: {}
+[33.376703] (-) TimerEvent: {}
+[33.478820] (-) TimerEvent: {}
+[33.579632] (-) TimerEvent: {}
+[33.700632] (-) TimerEvent: {}
+[33.807311] (-) TimerEvent: {}
+[33.907902] (-) TimerEvent: {}
+[34.014913] (-) TimerEvent: {}
+[34.132355] (-) TimerEvent: {}
+[34.253963] (-) TimerEvent: {}
+[34.379574] (-) TimerEvent: {}
+[34.482399] (-) TimerEvent: {}
+[34.590341] (-) TimerEvent: {}
+[34.697392] (-) TimerEvent: {}
+[34.802929] (-) TimerEvent: {}
+[34.923827] (-) TimerEvent: {}
+[35.030483] (-) TimerEvent: {}
+[35.139246] (-) TimerEvent: {}
+[35.172049] (robot_trajectory) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable square\x1b[0m\n'}
+[35.253504] (-) TimerEvent: {}
+[35.387204] (-) TimerEvent: {}
+[35.445959] (robot_trajectory) StdoutLine: {'line': b'[100%] Built target square\n'}
+[35.475615] (robot_trajectory) CommandEnded: {'returncode': 0}
+[35.501059] (-) TimerEvent: {}
+[35.570084] (robot_trajectory) JobProgress: {'identifier': 'robot_trajectory', 'progress': 'install'}
+[35.593011] (robot_trajectory) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory'], 'cwd': '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marc'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1192'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/marc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '939'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=262a9df2641c15fbcdea778c64246ba7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'marc'), ('JOURNAL_STREAM', '8:29399'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'marc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/marc-VirtualBox:@/tmp/.ICE-unix/1230,unix/marc-VirtualBox:/tmp/.ICE-unix/1230'), ('INVOCATION_ID', 'b92dd746c67a4fbeaf46d165677a201c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e731a93d_0350_4ee0_a6bf_dcb4c86f75a5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=262a9df2641c15fbcdea778c64246ba7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[35.610445] (-) TimerEvent: {}
+[35.615078] (robot_trajectory) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.615435] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/lib/robot_trajectory/square\n'}
+[35.616088] (robot_trajectory) StdoutLine: {'line': b'-- Set runtime path of "/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/lib/robot_trajectory/square" to ""\n'}
+[35.616253] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/lib/robot_trajectory/square_odom\n'}
+[35.617549] (robot_trajectory) StdoutLine: {'line': b'-- Set runtime path of "/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/lib/robot_trajectory/square_odom" to ""\n'}
+[35.617766] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/lib/robot_trajectory/wandering\n'}
+[35.619272] (robot_trajectory) StdoutLine: {'line': b'-- Set runtime path of "/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/lib/robot_trajectory/wandering" to ""\n'}
+[35.619484] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/ament_index/resource_index/package_run_dependencies/robot_trajectory\n'}
+[35.619680] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/ament_index/resource_index/parent_prefix_path/robot_trajectory\n'}
+[35.619873] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.sh\n'}
+[35.620040] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.dsv\n'}
+[35.620205] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/environment/path.sh\n'}
+[35.620849] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/environment/path.dsv\n'}
+[35.622980] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/local_setup.bash\n'}
+[35.623166] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/local_setup.sh\n'}
+[35.623368] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/local_setup.zsh\n'}
+[35.624402] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/local_setup.dsv\n'}
+[35.624590] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/package.dsv\n'}
+[35.624774] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/ament_index/resource_index/packages/robot_trajectory\n'}
+[35.624954] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig.cmake\n'}
+[35.625088] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig-version.cmake\n'}
+[35.625267] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/package.xml\n'}
+[35.631157] (robot_trajectory) CommandEnded: {'returncode': 0}
+[35.726041] (-) TimerEvent: {}
+[35.835583] (-) TimerEvent: {}
+[35.864467] (robot_trajectory) JobEnded: {'identifier': 'robot_trajectory', 'rc': 0}
+[35.865133] (-) EventReactorShutdown: {}

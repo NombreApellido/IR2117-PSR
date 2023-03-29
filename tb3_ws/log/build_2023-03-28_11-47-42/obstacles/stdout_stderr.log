@@ -1,8 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/detector.dir/src/detector.cpp.o[0m
-[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/detector.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/laser_scan.hpp: No existe el archivo o el directorio
-    2 | #include [01;31m[K"std_msgs/msg/laser_scan.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/detector.dir/build.make:63: CMakeFiles/detector.dir/src/detector.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/detector.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

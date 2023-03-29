@@ -1,0 +1,30 @@
+[0.007s] Invoking command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory -- -j1 -l1
+[0.048s] [35m[1mScanning dependencies of target wandering[0m
+[0.101s] [ 16%] [32mBuilding CXX object CMakeFiles/wandering.dir/src/wandering.cpp.o[0m
+[3.896s] [ 33%] [32m[1mLinking CXX executable wandering[0m
+[4.090s] [ 33%] Built target wandering
+[4.120s] [ 66%] Built target square_odom
+[4.144s] [100%] Built target square
+[4.170s] Invoked command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory -- -j1 -l1
+[4.227s] Invoking command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory
+[4.234s] -- Install configuration: ""
+[4.235s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/lib/robot_trajectory/square
+[4.235s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/lib/robot_trajectory/square_odom
+[4.235s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/lib/robot_trajectory/wandering
+[4.237s] -- Set runtime path of "/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/lib/robot_trajectory/wandering" to ""
+[4.237s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/ament_index/resource_index/package_run_dependencies/robot_trajectory
+[4.237s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/ament_index/resource_index/parent_prefix_path/robot_trajectory
+[4.237s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.sh
+[4.237s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.dsv
+[4.237s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/environment/path.sh
+[4.238s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/environment/path.dsv
+[4.238s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/local_setup.bash
+[4.238s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/local_setup.sh
+[4.238s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/local_setup.zsh
+[4.238s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/local_setup.dsv
+[4.238s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/package.dsv
+[4.238s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/ament_index/resource_index/packages/robot_trajectory
+[4.238s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig.cmake
+[4.239s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig-version.cmake
+[4.239s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/install/robot_trajectory/share/robot_trajectory/package.xml
+[4.257s] Invoked command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/build/robot_trajectory
