@@ -21,11 +21,15 @@ find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(example_interfaces REQUIRED)
 
-add_executable(detector src/detector.cpp)
+add_executable(detector src/avoidance.cpp)
+ament_target_dependencies(avoidance rclcpp sensor_msgs example_interfaces)
+
+add_executable(avoidance src/detector.cpp)
 ament_target_dependencies(detector rclcpp sensor_msgs example_interfaces)
 
 install(TARGETS
    detector
+   avoidance
    DESTINATION lib/${PROJECT_NAME}
 )
 
