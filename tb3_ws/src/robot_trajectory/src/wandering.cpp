@@ -45,6 +45,7 @@ int main(int argc, char * argv[])
   while (rclcpp::ok()) {
       if (min_right > 1.0 && min_left > 1.0){
           message.linear.x = 0.2; //Velocidad lineal constante para avanzar
+          message.angular.z = 0.0;
       }
       if (min_right <= 1.0 || min_left <= 1.0){ // Si encuentra obstáculo a 1 metro, detiene el robot
           message.linear.x = 0.0;
