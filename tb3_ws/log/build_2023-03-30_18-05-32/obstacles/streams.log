@@ -1,0 +1,6 @@
+[0.008s] Invoking command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles -- -j1 -l1
+[0.020s] CMake Error: The current CMakeCache.txt directory /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeCache.txt is different than the directory /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.039s] CMake Error: The source directory "/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles" does not exist.
+[0.039s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.040s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.043s] Invoked command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles -- -j1 -l1

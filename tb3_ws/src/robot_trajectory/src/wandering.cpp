@@ -13,7 +13,7 @@ void scan_callback(sensor_msgs::msg::LaserScan::SharedPtr msg)
     min_left = 9999;
     for (int i=0; i<9; i++)
     {
-        if (v[i]<min_left){
+        if (v[i]<=min_left){
             min_left = v[i];
         }
     }
@@ -21,7 +21,7 @@ void scan_callback(sensor_msgs::msg::LaserScan::SharedPtr msg)
     min_right = 9999;
     for (int i=350; i<359; i++)
     {
-        if (v[i]<min_right){
+        if (v[i]<=min_right){
             min_right = v[i];
         }
     }
@@ -36,7 +36,7 @@ int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
   auto node = rclcpp::Node::make_shared("publisher");
-  auto subscription = node->create_subscription<sensor_msgs::msg::LaserScan>("scan", 10, scan_callback);
+  auto subscription = node->create_subscription<sensor_msgs::msg::LaserScan>("/scan", 10, scan_callback);
   auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
 
   
@@ -51,6 +51,7 @@ int main(int argc, char * argv[])
           message.linear.x = 0.0;
           if (min_left < min_right) { // Si el obstáculo está más cerca en el rango izq
               message.angular.z = -0.2;
+              }
           }
           else{ // Si el obstáculo está más cerca del rango derecho
               message.angular.z = 0.2;
