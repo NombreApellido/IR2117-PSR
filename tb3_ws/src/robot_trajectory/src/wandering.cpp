@@ -1,4 +1,4 @@
-#include <chrono>
+s#include <chrono>
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/laser_scan.hpp"
 #include "geometry_msgs/msg/twist.hpp"
@@ -50,10 +50,10 @@ int main(int argc, char * argv[])
       if (min_right <= 1.0 || min_left <= 1.0){ // Si encuentra obstáculo a 1 metro, detiene el robot
           message.linear.x = 0.0;
           if (min_left < min_right) { // Si el obstáculo está más cerca en el rango izq
-              message.angular.z = 0.2;
+              message.angular.z = -0.2;
           }
           else{ // Si el obstáculo está más cerca del rango derecho
-              message.angular.z = -0.2;
+              message.angular.z = 0.2;
           }
       }
       publisher->publish(message);
