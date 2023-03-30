@@ -1,0 +1,12 @@
+/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory/CMakeFiles/install/strip.dir
+/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory/CMakeFiles/install/local.dir
+/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory/CMakeFiles/install.dir
+/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory/CMakeFiles/list_install_components.dir
+/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory/CMakeFiles/rebuild_cache.dir
+/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory/CMakeFiles/edit_cache.dir
+/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory/CMakeFiles/test.dir
+/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory/CMakeFiles/wandering.dir
+/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory/CMakeFiles/square_odom.dir
+/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory/CMakeFiles/square.dir
+/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory/CMakeFiles/robot_trajectory_uninstall.dir
+/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/build/robot_trajectory/CMakeFiles/uninstall.dir
