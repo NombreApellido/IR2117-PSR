@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/wandering.cpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/wandering.cpp
 chrono
 -
 rclcpp/rclcpp.hpp
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/rclcpp/rclcpp.hpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/rclcpp/rclcpp.hpp
 sensor_msgs/msg/laser_scan.hpp
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/sensor_msgs/msg/laser_scan.hpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/sensor_msgs/msg/laser_scan.hpp
 geometry_msgs/msg/twist.hpp
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/geometry_msgs/msg/twist.hpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/geometry_msgs/msg/twist.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

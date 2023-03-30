@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/square_odom.cpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/square_odom.cpp
 chrono
 -
 rclcpp/rclcpp.hpp
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/rclcpp/rclcpp.hpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/rclcpp/rclcpp.hpp
 nav_msgs/msg/odometry.hpp
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/nav_msgs/msg/odometry.hpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/nav_msgs/msg/odometry.hpp
 geometry_msgs/msg/twist.hpp
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/geometry_msgs/msg/twist.hpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/geometry_msgs/msg/twist.hpp
 math.h
 -
 cmath
