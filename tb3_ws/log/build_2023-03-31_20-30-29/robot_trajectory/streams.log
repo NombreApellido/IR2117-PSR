@@ -1,0 +1,15 @@
+[0.028s] Invoking command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory -- -j1 -l1
+[0.166s] [35m[1mScanning dependencies of target wandering[0m
+[0.216s] [ 16%] [32mBuilding CXX object CMakeFiles/wandering.dir/src/wandering.cpp.o[0m
+[4.494s] [ 33%] [32m[1mLinking CXX executable wandering[0m
+[4.696s] [ 33%] Built target wandering
+[4.705s] [35m[1mScanning dependencies of target square_odom[0m
+[4.764s] [ 50%] [32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o[0m
+[4.881s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/square_odom.cpp:7:10:[m[K [01;31m[Kfatal error: [m[KEigen/Geometry: No such file or directory
+[4.882s]     7 | #include [01;31m[K<Eigen/Geometry>[m[K
+[4.882s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.882s] compilation terminated.
+[4.888s] make[2]: *** [CMakeFiles/square_odom.dir/build.make:63: CMakeFiles/square_odom.dir/src/square_odom.cpp.o] Error 1
+[4.892s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/square_odom.dir/all] Error 2
+[4.892s] make: *** [Makefile:141: all] Error 2
+[4.894s] Invoked command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory -- -j1 -l1

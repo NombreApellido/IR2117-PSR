@@ -1,0 +1,55 @@
+[0.008s] Invoking command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles -- -j1 -l1
+[0.140s] [ 50%] Built target detector
+[0.161s] [35m[1mScanning dependencies of target avoidance[0m
+[0.217s] [ 75%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+[1.355s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:[m[K In function ‘[01m[Kvoid callback_front(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.355s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:8:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.355s]     8 | void callback_front([01;35m[Kconst example_interfaces::msg::Bool::SharedPtr msg[m[K)
+[1.355s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.356s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:[m[K In function ‘[01m[Kvoid callback_left(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.356s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:13:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.356s]    13 | void callback_left([01;35m[Kconst example_interfaces::msg::Bool::SharedPtr msg[m[K)
+[1.356s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.356s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:[m[K In function ‘[01m[Kvoid callback_right(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.356s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:18:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.356s]    18 | void callback_right([01;35m[Kconst example_interfaces::msg::Bool::SharedPtr msg[m[K)
+[1.356s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.357s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.357s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:27:63:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::Bool[m[K’?
+[1.357s]    27 |  auto publisher = node->create_publisher<geometry_msgs::msg::[01;31m[KBool[m[K>("cmd_vel", 10);
+[1.357s]       |                                                              [01;31m[K^~~~[m[K
+[1.358s] 
+[1.358s] In file included from [01m[K/opt/ros/foxy/include/example_interfaces/msg/bool.hpp:7[m[K,
+[1.358s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:3[m[K:
+[1.358s] [01m[K/opt/ros/foxy/include/example_interfaces/msg/detail/bool__struct.hpp:121:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::Bool[m[K’ declared here
+[1.358s]   121 | using [01;36m[KBool[m[K =
+[1.358s]       |       [01;36m[K^~~~[m[K
+[1.359s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:27:63:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::Bool[m[K’?
+[1.359s]    27 |  auto publisher = node->create_publisher<geometry_msgs::msg::[01;31m[KBool[m[K>("cmd_vel", 10);
+[1.359s]       |                                                              [01;31m[K^~~~[m[K
+[1.359s] 
+[1.359s] In file included from [01m[K/opt/ros/foxy/include/example_interfaces/msg/bool.hpp:7[m[K,
+[1.359s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:3[m[K:
+[1.359s] [01m[K/opt/ros/foxy/include/example_interfaces/msg/detail/bool__struct.hpp:121:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::Bool[m[K’ declared here
+[1.359s]   121 | using [01;36m[KBool[m[K =
+[1.359s]       |       [01;36m[K^~~~[m[K
+[1.359s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:27:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [8], int)[m[K’
+[1.359s]    27 | ode->create_publisher<geometry_msgs::msg::Bool>("cmd_vel", 10[01;31m[K)[m[K;
+[1.360s]       |                                                              [01;31m[K^[m[K
+[1.360s] 
+[1.360s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.360s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.360s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.360s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:1[m[K:
+[1.360s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.360s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[1.360s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.360s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.360s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:27:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.361s]    27 | ode->create_publisher<geometry_msgs::msg::Bool>("cmd_vel", 10[01;31m[K)[m[K;
+[1.361s]       |                                                              [01;31m[K^[m[K
+[1.361s] 
+[2.623s] make[2]: *** [CMakeFiles/avoidance.dir/build.make:63: CMakeFiles/avoidance.dir/src/avoidance.cpp.o] Error 1
+[2.627s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/avoidance.dir/all] Error 2
+[2.627s] make: *** [Makefile:141: all] Error 2
+[2.628s] Invoked command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles -- -j1 -l1

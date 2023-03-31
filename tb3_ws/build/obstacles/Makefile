@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles
+CMAKE_SOURCE_DIR = /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles
+CMAKE_BINARY_DIR = /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -181,6 +181,19 @@ detector/fast:
 .PHONY : detector/fast
 
 #=============================================================================
+# Target rules for targets named avoidance
+
+# Build rule for target.
+avoidance: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 avoidance
+.PHONY : avoidance
+
+# fast build rule for target.
+avoidance/fast:
+	$(MAKE) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/build
+.PHONY : avoidance/fast
+
+#=============================================================================
 # Target rules for targets named obstacles_uninstall
 
 # Build rule for target.
@@ -205,6 +218,33 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
+
+src/avoidance.o: src/avoidance.cpp.o
+
+.PHONY : src/avoidance.o
+
+# target to build an object file
+src/avoidance.cpp.o:
+	$(MAKE) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/src/avoidance.cpp.o
+.PHONY : src/avoidance.cpp.o
+
+src/avoidance.i: src/avoidance.cpp.i
+
+.PHONY : src/avoidance.i
+
+# target to preprocess a source file
+src/avoidance.cpp.i:
+	$(MAKE) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/src/avoidance.cpp.i
+.PHONY : src/avoidance.cpp.i
+
+src/avoidance.s: src/avoidance.cpp.s
+
+.PHONY : src/avoidance.s
+
+# target to generate assembly for a file
+src/avoidance.cpp.s:
+	$(MAKE) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/src/avoidance.cpp.s
+.PHONY : src/avoidance.cpp.s
 
 src/detector.o: src/detector.cpp.o
 
@@ -247,8 +287,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... detector"
+	@echo "... avoidance"
 	@echo "... obstacles_uninstall"
 	@echo "... uninstall"
+	@echo "... src/avoidance.o"
+	@echo "... src/avoidance.i"
+	@echo "... src/avoidance.s"
 	@echo "... src/detector.o"
 	@echo "... src/detector.i"
 	@echo "... src/detector.s"

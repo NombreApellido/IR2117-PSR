@@ -1,0 +1,16 @@
+[0.010s] Invoking command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory -- -j1 -l1
+[0.133s] [35m[1mScanning dependencies of target wandering[0m
+[0.182s] [ 16%] [32mBuilding CXX object CMakeFiles/wandering.dir/src/wandering.cpp.o[0m
+[1.435s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/wandering.cpp:69:21:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[1.435s]    69 |   rclcpp::shutdown()[01;31m[K;[m[K
+[1.435s]       |                     [01;31m[K^[m[K
+[1.435s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/wandering.cpp:70:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+[1.435s]    70 |   [01;31m[Kreturn[m[K 0;
+[1.435s]       |   [01;31m[K^~~~~~[m[K
+[1.435s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory/src/wandering.cpp:71:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.435s]    71 | [01;31m[K}[m[K
+[1.435s]       | [01;31m[K^[m[K
+[2.636s] make[2]: *** [CMakeFiles/wandering.dir/build.make:63: CMakeFiles/wandering.dir/src/wandering.cpp.o] Error 1
+[2.639s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/wandering.dir/all] Error 2
+[2.639s] make: *** [Makefile:141: all] Error 2
+[2.639s] Invoked command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory -- -j1 -l1

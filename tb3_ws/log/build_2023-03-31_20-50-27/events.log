@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000167] (obstacles) JobQueued: {'identifier': 'obstacles', 'dependencies': OrderedDict()}
+[0.000191] (robot_trajectory) JobQueued: {'identifier': 'robot_trajectory', 'dependencies': OrderedDict()}
+[0.000204] (obstacles) JobStarted: {'identifier': 'obstacles'}
+[0.009727] (obstacles) JobProgress: {'identifier': 'obstacles', 'progress': 'cmake'}
+[0.013099] (obstacles) JobProgress: {'identifier': 'obstacles', 'progress': 'build'}
+[0.013666] (obstacles) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles', '--', '-j1', '-l1'], 'cwd': '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marc'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1216'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/marc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '944'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=56dafda5152cdaa3d0d42c7d6426e06d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'marc'), ('JOURNAL_STREAM', '8:29284'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'marc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/marc-VirtualBox:@/tmp/.ICE-unix/1254,unix/marc-VirtualBox:/tmp/.ICE-unix/1254'), ('INVOCATION_ID', '1e56f2baae574793b0770c55bdcbf365'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/343ccb4a_bfc5_4674_9986_9d4e52c0d418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory:/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=56dafda5152cdaa3d0d42c7d6426e06d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory:/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles:/opt/ros/foxy')]), 'shell': False}
+[0.099195] (-) TimerEvent: {}
+[0.214819] (-) TimerEvent: {}
+[0.226158] (obstacles) StdoutLine: {'line': b'[ 50%] Built target detector\n'}
+[0.319214] (-) TimerEvent: {}
+[0.333258] (obstacles) StdoutLine: {'line': b'[100%] Built target avoidance\n'}
+[0.367101] (obstacles) CommandEnded: {'returncode': 0}
+[0.429189] (-) TimerEvent: {}
+[0.446633] (obstacles) JobProgress: {'identifier': 'obstacles', 'progress': 'install'}
+[0.478052] (obstacles) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles'], 'cwd': '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marc'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1216'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/marc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '944'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=56dafda5152cdaa3d0d42c7d6426e06d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'marc'), ('JOURNAL_STREAM', '8:29284'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'marc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/marc-VirtualBox:@/tmp/.ICE-unix/1254,unix/marc-VirtualBox:/tmp/.ICE-unix/1254'), ('INVOCATION_ID', '1e56f2baae574793b0770c55bdcbf365'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/343ccb4a_bfc5_4674_9986_9d4e52c0d418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory:/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=56dafda5152cdaa3d0d42c7d6426e06d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory:/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles:/opt/ros/foxy')]), 'shell': False}
+[0.487891] (obstacles) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.490229] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib/obstacles/detector\n'}
+[0.490582] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib/obstacles/avoidance\n'}
+[0.490786] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/launch\n'}
+[0.490894] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/launch/triple_detector.launch.py\n'}
+[0.491040] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/launch/detector_test.launch.py\n'}
+[0.491208] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/ament_index/resource_index/package_run_dependencies/obstacles\n'}
+[0.491332] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/ament_index/resource_index/parent_prefix_path/obstacles\n'}
+[0.491444] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/environment/ament_prefix_path.sh\n'}
+[0.491548] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/environment/ament_prefix_path.dsv\n'}
+[0.491665] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/environment/path.sh\n'}
+[0.491770] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/environment/path.dsv\n'}
+[0.491875] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/local_setup.bash\n'}
+[0.491980] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/local_setup.sh\n'}
+[0.492643] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/local_setup.zsh\n'}
+[0.492778] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/local_setup.dsv\n'}
+[0.492886] (obstacles) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.dsv\n'}
+[0.494268] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/ament_index/resource_index/packages/obstacles\n'}
+[0.494427] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/cmake/obstaclesConfig.cmake\n'}
+[0.494523] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/cmake/obstaclesConfig-version.cmake\n'}
+[0.494638] (obstacles) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.xml\n'}
+[0.518639] (obstacles) CommandEnded: {'returncode': 0}
+[0.538914] (-) TimerEvent: {}
+[0.640010] (-) TimerEvent: {}
+[0.695073] (obstacles) JobEnded: {'identifier': 'obstacles', 'rc': 0}
+[0.697790] (robot_trajectory) JobStarted: {'identifier': 'robot_trajectory'}
+[0.740308] (-) TimerEvent: {}
+[0.740787] (robot_trajectory) JobProgress: {'identifier': 'robot_trajectory', 'progress': 'cmake'}
+[0.744002] (robot_trajectory) JobProgress: {'identifier': 'robot_trajectory', 'progress': 'build'}
+[0.744266] (robot_trajectory) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory', '--', '-j1', '-l1'], 'cwd': '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marc'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1216'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/marc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '944'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=56dafda5152cdaa3d0d42c7d6426e06d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'marc'), ('JOURNAL_STREAM', '8:29284'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'marc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/marc-VirtualBox:@/tmp/.ICE-unix/1254,unix/marc-VirtualBox:/tmp/.ICE-unix/1254'), ('INVOCATION_ID', '1e56f2baae574793b0770c55bdcbf365'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/343ccb4a_bfc5_4674_9986_9d4e52c0d418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory:/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=56dafda5152cdaa3d0d42c7d6426e06d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory:/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles:/opt/ros/foxy')]), 'shell': False}
+[0.840718] (-) TimerEvent: {}
+[0.891547] (robot_trajectory) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target wandering\x1b[0m\n'}
+[0.951567] (-) TimerEvent: {}
+[1.004784] (robot_trajectory) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/wandering.dir/src/wandering.cpp.o\x1b[0m\n'}
+[1.078572] (-) TimerEvent: {}
+[1.200107] (-) TimerEvent: {}
+[1.322648] (-) TimerEvent: {}
+[1.466896] (-) TimerEvent: {}
+[1.578931] (-) TimerEvent: {}
+[1.686921] (-) TimerEvent: {}
+[1.823645] (-) TimerEvent: {}
+[1.940058] (-) TimerEvent: {}
+[2.062989] (-) TimerEvent: {}
+[2.172403] (-) TimerEvent: {}
+[2.280360] (-) TimerEvent: {}
+[2.396744] (-) TimerEvent: {}
+[2.514880] (-) TimerEvent: {}
+[2.619485] (-) TimerEvent: {}
+[2.724457] (-) TimerEvent: {}
+[2.842716] (-) TimerEvent: {}
+[2.948162] (-) TimerEvent: {}
+[3.066634] (-) TimerEvent: {}
+[3.174629] (-) TimerEvent: {}
+[3.290572] (-) TimerEvent: {}
+[3.406920] (-) TimerEvent: {}
+[3.523079] (-) TimerEvent: {}
+[3.627985] (-) TimerEvent: {}
+[3.743954] (-) TimerEvent: {}
+[3.847878] (-) TimerEvent: {}
+[3.974748] (-) TimerEvent: {}
+[4.082071] (-) TimerEvent: {}
+[4.196362] (-) TimerEvent: {}
+[4.306059] (-) TimerEvent: {}
+[4.408564] (-) TimerEvent: {}
+[4.512609] (-) TimerEvent: {}
+[4.623716] (-) TimerEvent: {}
+[4.727752] (-) TimerEvent: {}
+[4.834133] (-) TimerEvent: {}
+[4.948742] (-) TimerEvent: {}
+[5.052714] (-) TimerEvent: {}
+[5.158629] (-) TimerEvent: {}
+[5.272793] (-) TimerEvent: {}
+[5.392801] (-) TimerEvent: {}
+[5.498007] (-) TimerEvent: {}
+[5.602935] (-) TimerEvent: {}
+[5.707519] (-) TimerEvent: {}
+[5.814622] (-) TimerEvent: {}
+[5.919615] (-) TimerEvent: {}
+[6.037181] (-) TimerEvent: {}
+[6.154607] (-) TimerEvent: {}
+[6.271438] (-) TimerEvent: {}
+[6.376673] (-) TimerEvent: {}
+[6.483709] (-) TimerEvent: {}
+[6.589369] (-) TimerEvent: {}
+[6.696331] (-) TimerEvent: {}
+[6.800131] (-) TimerEvent: {}
+[6.917175] (-) TimerEvent: {}
+[7.037153] (-) TimerEvent: {}
+[7.153446] (-) TimerEvent: {}
+[7.278092] (-) TimerEvent: {}
+[7.395365] (-) TimerEvent: {}
+[7.502822] (-) TimerEvent: {}
+[7.609715] (-) TimerEvent: {}
+[7.713015] (-) TimerEvent: {}
+[7.817066] (-) TimerEvent: {}
+[7.926300] (-) TimerEvent: {}
+[8.043098] (-) TimerEvent: {}
+[8.150623] (-) TimerEvent: {}
+[8.266449] (-) TimerEvent: {}
+[8.382562] (-) TimerEvent: {}
+[8.487424] (-) TimerEvent: {}
+[8.604920] (-) TimerEvent: {}
+[8.721971] (-) TimerEvent: {}
+[8.827240] (-) TimerEvent: {}
+[8.932832] (-) TimerEvent: {}
+[9.038833] (-) TimerEvent: {}
+[9.145328] (-) TimerEvent: {}
+[9.253116] (-) TimerEvent: {}
+[9.368122] (-) TimerEvent: {}
+[9.474665] (-) TimerEvent: {}
+[9.580463] (-) TimerEvent: {}
+[9.687583] (-) TimerEvent: {}
+[9.790715] (-) TimerEvent: {}
+[9.906915] (-) TimerEvent: {}
+[10.013184] (-) TimerEvent: {}
+[10.119568] (-) TimerEvent: {}
+[10.225290] (-) TimerEvent: {}
+[10.331211] (-) TimerEvent: {}
+[10.446169] (-) TimerEvent: {}
+[10.575037] (-) TimerEvent: {}
+[10.688615] (-) TimerEvent: {}
+[10.791790] (-) TimerEvent: {}
+[10.839069] (robot_trajectory) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable wandering\x1b[0m\n'}
+[10.922676] (-) TimerEvent: {}
+[11.046889] (-) TimerEvent: {}
+[11.165306] (-) TimerEvent: {}
+[11.255969] (robot_trajectory) StdoutLine: {'line': b'[ 33%] Built target wandering\n'}
+[11.271867] (-) TimerEvent: {}
+[11.361753] (robot_trajectory) StdoutLine: {'line': b'[ 66%] Built target square_odom\n'}
+[11.383929] (-) TimerEvent: {}
+[11.428243] (robot_trajectory) StdoutLine: {'line': b'[100%] Built target square\n'}
+[11.457104] (robot_trajectory) CommandEnded: {'returncode': 0}
+[11.484039] (-) TimerEvent: {}
+[11.550622] (robot_trajectory) JobProgress: {'identifier': 'robot_trajectory', 'progress': 'install'}
+[11.550834] (robot_trajectory) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory'], 'cwd': '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marc'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1216'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/marc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '944'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=56dafda5152cdaa3d0d42c7d6426e06d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'marc'), ('JOURNAL_STREAM', '8:29284'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'marc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/marc-VirtualBox:@/tmp/.ICE-unix/1254,unix/marc-VirtualBox:/tmp/.ICE-unix/1254'), ('INVOCATION_ID', '1e56f2baae574793b0770c55bdcbf365'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/343ccb4a_bfc5_4674_9986_9d4e52c0d418'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory:/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=56dafda5152cdaa3d0d42c7d6426e06d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory:/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles:/opt/ros/foxy')]), 'shell': False}
+[11.571861] (robot_trajectory) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.579957] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square\n'}
+[11.580476] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square_odom\n'}
+[11.580799] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib/robot_trajectory/wandering\n'}
+[11.595649] (-) TimerEvent: {}
+[11.595960] (robot_trajectory) StdoutLine: {'line': b'-- Set runtime path of "/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib/robot_trajectory/wandering" to ""\n'}
+[11.596245] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/package_run_dependencies/robot_trajectory\n'}
+[11.596408] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/parent_prefix_path/robot_trajectory\n'}
+[11.596549] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.sh\n'}
+[11.596726] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.dsv\n'}
+[11.596842] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/path.sh\n'}
+[11.596952] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/path.dsv\n'}
+[11.597059] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.bash\n'}
+[11.597168] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.sh\n'}
+[11.597273] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.zsh\n'}
+[11.597377] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.dsv\n'}
+[11.597480] (robot_trajectory) StdoutLine: {'line': b'-- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.dsv\n'}
+[11.597738] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/packages/robot_trajectory\n'}
+[11.597868] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig.cmake\n'}
+[11.597957] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig-version.cmake\n'}
+[11.598065] (robot_trajectory) StdoutLine: {'line': b'-- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.xml\n'}
+[11.609405] (robot_trajectory) CommandEnded: {'returncode': 0}
+[11.705032] (-) TimerEvent: {}
+[11.762956] (robot_trajectory) JobEnded: {'identifier': 'robot_trajectory', 'rc': 0}
+[11.764101] (-) EventReactorShutdown: {}

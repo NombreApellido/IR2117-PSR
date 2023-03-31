@@ -1,0 +1,157 @@
+[0.009s] Invoking command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles -- -j1 -l1
+[0.162s] [ 50%] Built target detector
+[0.197s] [35m[1mScanning dependencies of target avoidance[0m
+[0.244s] [ 75%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+[1.472s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:[m[K In function ‘[01m[Kvoid callback_front(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.474s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:8:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.474s]     8 | void callback_front([01;35m[Kconst example_interfaces::msg::Bool::SharedPtr msg[m[K)
+[1.474s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.474s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:[m[K In function ‘[01m[Kvoid callback_left(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.474s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:13:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.474s]    13 | void callback_left([01;35m[Kconst example_interfaces::msg::Bool::SharedPtr msg[m[K)
+[1.474s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.474s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:[m[K In function ‘[01m[Kvoid callback_right(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.474s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:18:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.474s]    18 | void callback_right([01;35m[Kconst example_interfaces::msg::Bool::SharedPtr msg[m[K)
+[1.474s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.479s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.479s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:27:63:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::Bool[m[K’?
+[1.479s]    27 |  auto publisher = node->create_publisher<geometry_msgs::msg::[01;31m[KBool[m[K>("cmd_vel", 10);
+[1.479s]       |                                                              [01;31m[K^~~~[m[K
+[1.479s] 
+[1.480s] In file included from [01m[K/opt/ros/foxy/include/example_interfaces/msg/bool.hpp:7[m[K,
+[1.480s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:3[m[K:
+[1.480s] [01m[K/opt/ros/foxy/include/example_interfaces/msg/detail/bool__struct.hpp:121:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::Bool[m[K’ declared here
+[1.480s]   121 | using [01;36m[KBool[m[K =
+[1.480s]       |       [01;36m[K^~~~[m[K
+[1.481s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:27:63:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::Bool[m[K’?
+[1.481s]    27 |  auto publisher = node->create_publisher<geometry_msgs::msg::[01;31m[KBool[m[K>("cmd_vel", 10);
+[1.481s]       |                                                              [01;31m[K^~~~[m[K
+[1.481s] 
+[1.481s] In file included from [01m[K/opt/ros/foxy/include/example_interfaces/msg/bool.hpp:7[m[K,
+[1.481s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:3[m[K:
+[1.481s] [01m[K/opt/ros/foxy/include/example_interfaces/msg/detail/bool__struct.hpp:121:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::Bool[m[K’ declared here
+[1.482s]   121 | using [01;36m[KBool[m[K =
+[1.482s]       |       [01;36m[K^~~~[m[K
+[1.482s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:27:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [8], int)[m[K’
+[1.482s]    27 | ode->create_publisher<geometry_msgs::msg::Bool>("cmd_vel", 10[01;31m[K)[m[K;
+[1.482s]       |                                                              [01;31m[K^[m[K
+[1.482s] 
+[1.482s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.482s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.482s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.482s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:1[m[K:
+[1.482s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.482s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[1.483s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.483s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.483s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:27:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.490s]    27 | ode->create_publisher<geometry_msgs::msg::Bool>("cmd_vel", 10[01;31m[K)[m[K;
+[1.490s]       |                                                              [01;31m[K^[m[K
+[1.491s] 
+[1.496s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:28:67:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::Bool[m[K’?
+[1.497s]    28 | o subs_front = node->create_subscription<geometry_msgs::msg::[01;31m[KBool[m[K>("/front/obstacle", 10, callback_front);
+[1.497s]       |                                                              [01;31m[K^~~~[m[K
+[1.497s] 
+[1.497s] In file included from [01m[K/opt/ros/foxy/include/example_interfaces/msg/bool.hpp:7[m[K,
+[1.497s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:3[m[K:
+[1.497s] [01m[K/opt/ros/foxy/include/example_interfaces/msg/detail/bool__struct.hpp:121:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::Bool[m[K’ declared here
+[1.497s]   121 | using [01;36m[KBool[m[K =
+[1.497s]       |       [01;36m[K^~~~[m[K
+[1.498s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:28:67:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::Bool[m[K’?
+[1.498s]    28 | o subs_front = node->create_subscription<geometry_msgs::msg::[01;31m[KBool[m[K>("/front/obstacle", 10, callback_front);
+[1.498s]       |                                                              [01;31m[K^~~~[m[K
+[1.498s] 
+[1.498s] In file included from [01m[K/opt/ros/foxy/include/example_interfaces/msg/bool.hpp:7[m[K,
+[1.498s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:3[m[K:
+[1.498s] [01m[K/opt/ros/foxy/include/example_interfaces/msg/detail/bool__struct.hpp:121:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::Bool[m[K’ declared here
+[1.498s]   121 | using [01;36m[KBool[m[K =
+[1.498s]       |       [01;36m[K^~~~[m[K
+[1.499s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:28:110:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_subscription<<expression error> >(const char [16], int, void (&)(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr))[m[K’
+[1.499s]    28 | ometry_msgs::msg::Bool>("/front/obstacle", 10, callback_front[01;31m[K)[m[K;
+[1.499s]       |                                                              [01;31m[K^[m[K
+[1.499s] 
+[1.499s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.499s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.499s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.499s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:1[m[K:
+[1.499s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[1.499s]   213 |   [01;36m[Kcreate_subscription[m[K(
+[1.499s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.503s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.503s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:28:110:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.503s]    28 | ometry_msgs::msg::Bool>("/front/obstacle", 10, callback_front[01;31m[K)[m[K;
+[1.503s]       |                                                              [01;31m[K^[m[K
+[1.503s] 
+[1.504s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:29:66:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::Bool[m[K’?
+[1.504s]    29 | to subs_left = node->create_subscription<geometry_msgs::msg::[01;31m[KBool[m[K>("/left/obstacle", 10, callback_left);
+[1.504s]       |                                                              [01;31m[K^~~~[m[K
+[1.504s] 
+[1.504s] In file included from [01m[K/opt/ros/foxy/include/example_interfaces/msg/bool.hpp:7[m[K,
+[1.504s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:3[m[K:
+[1.504s] [01m[K/opt/ros/foxy/include/example_interfaces/msg/detail/bool__struct.hpp:121:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::Bool[m[K’ declared here
+[1.504s]   121 | using [01;36m[KBool[m[K =
+[1.506s]       |       [01;36m[K^~~~[m[K
+[1.506s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:29:66:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::Bool[m[K’?
+[1.507s]    29 | to subs_left = node->create_subscription<geometry_msgs::msg::[01;31m[KBool[m[K>("/left/obstacle", 10, callback_left);
+[1.507s]       |                                                              [01;31m[K^~~~[m[K
+[1.507s] 
+[1.507s] In file included from [01m[K/opt/ros/foxy/include/example_interfaces/msg/bool.hpp:7[m[K,
+[1.507s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:3[m[K:
+[1.507s] [01m[K/opt/ros/foxy/include/example_interfaces/msg/detail/bool__struct.hpp:121:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::Bool[m[K’ declared here
+[1.507s]   121 | using [01;36m[KBool[m[K =
+[1.507s]       |       [01;36m[K^~~~[m[K
+[1.514s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:29:107:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_subscription<<expression error> >(const char [15], int, void (&)(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr))[m[K’
+[1.514s]    29 | geometry_msgs::msg::Bool>("/left/obstacle", 10, callback_left[01;31m[K)[m[K;
+[1.514s]       |                                                              [01;31m[K^[m[K
+[1.514s] 
+[1.514s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.515s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.515s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.515s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:1[m[K:
+[1.518s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[1.518s]   213 |   [01;36m[Kcreate_subscription[m[K(
+[1.518s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.518s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.518s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:29:107:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.518s]    29 | geometry_msgs::msg::Bool>("/left/obstacle", 10, callback_left[01;31m[K)[m[K;
+[1.518s]       |                                                              [01;31m[K^[m[K
+[1.518s] 
+[1.519s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:30:67:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::Bool[m[K’?
+[1.519s]    30 | o subs_right = node->create_subscription<geometry_msgs::msg::[01;31m[KBool[m[K>("/right/obstacle", 10, callback_right);
+[1.519s]       |                                                              [01;31m[K^~~~[m[K
+[1.519s] 
+[1.519s] In file included from [01m[K/opt/ros/foxy/include/example_interfaces/msg/bool.hpp:7[m[K,
+[1.519s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:3[m[K:
+[1.519s] [01m[K/opt/ros/foxy/include/example_interfaces/msg/detail/bool__struct.hpp:121:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::Bool[m[K’ declared here
+[1.519s]   121 | using [01;36m[KBool[m[K =
+[1.519s]       |       [01;36m[K^~~~[m[K
+[1.520s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:30:67:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::Bool[m[K’?
+[1.520s]    30 | o subs_right = node->create_subscription<geometry_msgs::msg::[01;31m[KBool[m[K>("/right/obstacle", 10, callback_right);
+[1.520s]       |                                                              [01;31m[K^~~~[m[K
+[1.520s] 
+[1.520s] In file included from [01m[K/opt/ros/foxy/include/example_interfaces/msg/bool.hpp:7[m[K,
+[1.520s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:3[m[K:
+[1.520s] [01m[K/opt/ros/foxy/include/example_interfaces/msg/detail/bool__struct.hpp:121:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::Bool[m[K’ declared here
+[1.520s]   121 | using [01;36m[KBool[m[K =
+[1.521s]       |       [01;36m[K^~~~[m[K
+[1.521s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:30:110:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_subscription<<expression error> >(const char [16], int, void (&)(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr))[m[K’
+[1.521s]    30 | ometry_msgs::msg::Bool>("/right/obstacle", 10, callback_right[01;31m[K)[m[K;
+[1.521s]       |                                                              [01;31m[K^[m[K
+[1.521s] 
+[1.521s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.521s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.521s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.521s]                  from [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:1[m[K:
+[1.521s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[1.522s]   213 |   [01;36m[Kcreate_subscription[m[K(
+[1.522s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.527s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.528s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:30:110:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.528s]    30 | ometry_msgs::msg::Bool>("/right/obstacle", 10, callback_right[01;31m[K)[m[K;
+[1.528s]       |                                                              [01;31m[K^[m[K
+[1.528s] 
+[2.164s] make[2]: *** [CMakeFiles/avoidance.dir/build.make:63: CMakeFiles/avoidance.dir/src/avoidance.cpp.o] Error 1
+[2.166s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/avoidance.dir/all] Error 2
+[2.166s] make: *** [Makefile:141: all] Error 2
+[2.169s] Invoked command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles -- -j1 -l1

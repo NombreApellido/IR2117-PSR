@@ -1,0 +1,101 @@
+[0.034s] Invoking command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles -DCMAKE_INSTALL_PREFIX=/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles
+[0.171s] -- The C compiler identification is GNU 9.4.0
+[0.334s] -- The CXX compiler identification is GNU 9.4.0
+[0.338s] -- Check for working C compiler: /usr/bin/cc
+[0.504s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.504s] -- Detecting C compiler ABI info
+[0.666s] -- Detecting C compiler ABI info - done
+[0.674s] -- Detecting C compile features
+[0.674s] -- Detecting C compile features - done
+[0.677s] -- Check for working CXX compiler: /usr/bin/c++
+[0.736s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.737s] -- Detecting CXX compiler ABI info
+[0.873s] -- Detecting CXX compiler ABI info - done
+[0.903s] -- Detecting CXX compile features
+[0.903s] -- Detecting CXX compile features - done
+[0.905s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.936s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.936s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.111s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.152s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.262s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.323s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.387s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.428s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.430s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.431s] -- Looking for pthread.h
+[1.534s] -- Looking for pthread.h - found
+[1.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.589s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.590s] -- Looking for pthread_create in pthreads
+[1.683s] -- Looking for pthread_create in pthreads - not found
+[1.684s] -- Looking for pthread_create in pthread
+[1.811s] -- Looking for pthread_create in pthread - found
+[1.812s] -- Found Threads: TRUE  
+[1.997s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.097s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[2.185s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.234s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.235s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.235s] -- Configured cppcheck include dirs: 
+[2.236s] -- Configured cppcheck exclude dirs and/or files: 
+[2.236s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.252s] -- Configured cpplint exclude dirs and/or files: 
+[2.255s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.256s] -- Added test 'lint_cmake' to check CMake code style
+[2.256s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.257s] -- Added test 'uncrustify' to check C / C++ code style
+[2.258s] -- Configured uncrustify additional arguments: 
+[2.258s] -- Added test 'xmllint' to check XML markup files
+[2.260s] -- Configuring done
+[2.316s] -- Generating done
+[2.325s] -- Build files have been written to: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles
+[2.353s] Invoked command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles -DCMAKE_INSTALL_PREFIX=/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles
+[2.354s] Invoking command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles -- -j1 -l1
+[2.443s] [35m[1mScanning dependencies of target detector[0m
+[2.513s] [ 25%] [32mBuilding CXX object CMakeFiles/detector.dir/src/detector.cpp.o[0m
+[10.696s] [ 50%] [32m[1mLinking CXX executable detector[0m
+[11.105s] [ 50%] Built target detector
+[11.127s] [35m[1mScanning dependencies of target avoidance[0m
+[11.211s] [ 75%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+[13.050s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:[m[K In function ‘[01m[Kvoid callback_front(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[13.050s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:8:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.051s]     8 | void callback_front([01;35m[Kconst example_interfaces::msg::Bool::SharedPtr msg[m[K)
+[13.051s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[13.051s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:[m[K In function ‘[01m[Kvoid callback_left(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[13.051s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:13:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.051s]    13 | void callback_left([01;35m[Kconst example_interfaces::msg::Bool::SharedPtr msg[m[K)
+[13.051s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[13.052s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:[m[K In function ‘[01m[Kvoid callback_right(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[13.052s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:18:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.052s]    18 | void callback_right([01;35m[Kconst example_interfaces::msg::Bool::SharedPtr msg[m[K)
+[13.052s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[18.793s] [100%] [32m[1mLinking CXX executable avoidance[0m
+[19.276s] [100%] Built target avoidance
+[19.322s] Invoked command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles -- -j1 -l1
+[19.445s] Invoking command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles
+[19.479s] -- Install configuration: ""
+[19.480s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib/obstacles/detector
+[19.481s] -- Set runtime path of "/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib/obstacles/detector" to ""
+[19.481s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib/obstacles/avoidance
+[19.483s] -- Set runtime path of "/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib/obstacles/avoidance" to ""
+[19.483s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/launch
+[19.483s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/launch/triple_detector.launch.py
+[19.483s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/launch/detector_test.launch.py
+[19.483s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/ament_index/resource_index/package_run_dependencies/obstacles
+[19.484s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/ament_index/resource_index/parent_prefix_path/obstacles
+[19.484s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/environment/ament_prefix_path.sh
+[19.484s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/environment/ament_prefix_path.dsv
+[19.490s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/environment/path.sh
+[19.490s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/environment/path.dsv
+[19.491s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/local_setup.bash
+[19.491s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/local_setup.sh
+[19.491s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/local_setup.zsh
+[19.491s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/local_setup.dsv
+[19.491s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.dsv
+[19.492s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/ament_index/resource_index/packages/obstacles
+[19.492s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/cmake/obstaclesConfig.cmake
+[19.492s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/cmake/obstaclesConfig-version.cmake
+[19.492s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.xml
+[19.507s] Invoked command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles

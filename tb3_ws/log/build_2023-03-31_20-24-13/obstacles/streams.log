@@ -1,0 +1,43 @@
+[0.007s] Invoking command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles -- -j1 -l1
+[0.139s] [ 50%] Built target detector
+[0.162s] [35m[1mScanning dependencies of target avoidance[0m
+[0.231s] [ 75%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+[1.249s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:[m[K In function ‘[01m[Kvoid callback_front(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.250s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:8:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.250s]     8 | void callback_front([01;35m[Kconst example_interfaces::msg::Bool::SharedPtr msg[m[K)
+[1.250s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.250s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:[m[K In function ‘[01m[Kvoid callback_left(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.250s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:13:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.250s]    13 | void callback_left([01;35m[Kconst example_interfaces::msg::Bool::SharedPtr msg[m[K)
+[1.250s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.250s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:[m[K In function ‘[01m[Kvoid callback_right(example_interfaces::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.250s] [01m[K/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp:18:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.250s]    18 | void callback_right([01;35m[Kconst example_interfaces::msg::Bool::SharedPtr msg[m[K)
+[1.250s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.214s] [100%] [32m[1mLinking CXX executable avoidance[0m
+[4.431s] [100%] Built target avoidance
+[4.455s] Invoked command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles -- -j1 -l1
+[4.501s] Invoking command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles
+[4.510s] -- Install configuration: ""
+[4.511s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib/obstacles/detector
+[4.511s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib/obstacles/avoidance
+[4.513s] -- Set runtime path of "/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib/obstacles/avoidance" to ""
+[4.513s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/launch
+[4.513s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/launch/triple_detector.launch.py
+[4.513s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/launch/detector_test.launch.py
+[4.513s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/ament_index/resource_index/package_run_dependencies/obstacles
+[4.513s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/ament_index/resource_index/parent_prefix_path/obstacles
+[4.513s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/environment/ament_prefix_path.sh
+[4.514s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/environment/ament_prefix_path.dsv
+[4.514s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/environment/path.sh
+[4.514s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/environment/path.dsv
+[4.514s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/local_setup.bash
+[4.514s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/local_setup.sh
+[4.514s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/local_setup.zsh
+[4.514s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/local_setup.dsv
+[4.515s] -- Installing: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.dsv
+[4.515s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/ament_index/resource_index/packages/obstacles
+[4.515s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/cmake/obstaclesConfig.cmake
+[4.515s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/cmake/obstaclesConfig-version.cmake
+[4.515s] -- Up-to-date: /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.xml
+[4.525s] Invoked command in '/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/build/obstacles
