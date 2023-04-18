@@ -1,0 +1,19 @@
+[0.016s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory -- -j6 -l6
+[0.097s] [35m[1mScanning dependencies of target square_odom[0m
+[0.098s] [35m[1mScanning dependencies of target wandering[0m
+[0.104s] [35m[1mScanning dependencies of target square[0m
+[0.229s] [ 16%] [32mBuilding CXX object CMakeFiles/square.dir/src/square.cpp.o[0m
+[0.237s] [ 33%] [32mBuilding CXX object CMakeFiles/wandering.dir/src/wandering.cpp.o[0m
+[0.237s] [ 50%] [32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o[0m
+[9.723s] make[2]: *** [CMakeFiles/wandering.dir/build.make:63: CMakeFiles/wandering.dir/src/wandering.cpp.o] Interrupción
+[9.726s] make[2]: *** wait: No hay ningún proceso hijo.  Alto.
+[9.726s] make[2]: *** Se espera a que terminen otras tareas....
+[9.726s] make[2]: *** wait: No hay ningún proceso hijo.  Alto.
+[9.727s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/wandering.dir/all] Interrupción
+[9.727s] make[2]: *** wait: No hay ningún proceso hijo.  Alto.
+[9.727s] make[2]: *** Se espera a que terminen otras tareas....
+[9.727s] make[2]: *** wait: No hay ningún proceso hijo.  Alto.
+[9.727s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/square.dir/all] Error 2
+[9.728s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/square_odom.dir/all] Error 2
+[9.728s] make: *** [Makefile:141: all] Interrupción
+[9.729s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory -- -j6 -l6

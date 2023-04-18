@@ -3,21 +3,31 @@
 #include "example_interfaces/msg/bool.hpp"
 #include <chrono>
 
+enum State{
+  S1,
+  S2,
+  S3
+};
+
+State state = S1;
+
 using namespace std::chrono_literals;
+
+bool front_obstacle = false, left_obstacle = false, right_obstacle = false;
 
 void callback_front(const example_interfaces::msg::Bool::SharedPtr msg)
 {
-
+   front_obstacle = msg->data;
 }
 
 void callback_left(const example_interfaces::msg::Bool::SharedPtr msg)
 {
-
+   left_obstacle = msg->data;
 }
 
 void callback_right(const example_interfaces::msg::Bool::SharedPtr msg)
 {
-
+   right_obstacle = msg->data;
 }
 
 int main(int argc, char * argv[])
@@ -32,6 +42,40 @@ int main(int argc, char * argv[])
   rclcpp::WallRate loop_rate(50ms);
   
   while (rclcpp::ok()) {
+      
+      switch (state) {
+          case S1:
+              if (front_obstacle) {
+                  state = S2;
+              }
+              break;
+              
+          case S2:
+              if (left_obstacle and front_obstacle) {
+                  state = S3;
+              }else if (!front_obstacle){
+                  state = S1;
+              }
+              break;
+              
+          case S3:
+              if (!front_obstacle) {
+                  state = S1;
+              }
+              break;
+                  
+      }
+      if (state == S1) {
+          message.linear.x = 0.5;
+          message.linear.z = 0;
+      }else if (state == S2){
+          message.linear.x = 0;
+          message.linear.z = 0.5;
+      }else if (state == S3){
+          message.linear.x = 0;
+          message.linear.z = -0.5;
+      }
+  
       publisher->publish(message);
       rclcpp::spin_some(node);
       loop_rate.sleep();

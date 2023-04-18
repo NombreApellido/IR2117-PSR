@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/avoidance.cpp
 rclcpp/rclcpp.hpp
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/rclcpp/rclcpp.hpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/rclcpp/rclcpp.hpp
 geometry_msgs/msg/twist.hpp
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/geometry_msgs/msg/twist.hpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/geometry_msgs/msg/twist.hpp
 example_interfaces/msg/bool.hpp
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/example_interfaces/msg/bool.hpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/example_interfaces/msg/bool.hpp
 chrono
 -
 

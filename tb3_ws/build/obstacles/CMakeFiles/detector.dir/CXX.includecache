@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/detector.cpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/detector.cpp
 rclcpp/rclcpp.hpp
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/rclcpp/rclcpp.hpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/rclcpp/rclcpp.hpp
 sensor_msgs/msg/laser_scan.hpp
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/sensor_msgs/msg/laser_scan.hpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/sensor_msgs/msg/laser_scan.hpp
 iostream
 -
 example_interfaces/msg/bool.hpp
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/example_interfaces/msg/bool.hpp
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/example_interfaces/msg/bool.hpp
 cmath
-/home/marc/Documents/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/cmath
+/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles/src/cmath
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp
