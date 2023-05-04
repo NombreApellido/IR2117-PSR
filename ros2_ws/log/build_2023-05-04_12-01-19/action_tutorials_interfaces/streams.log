@@ -1,0 +1,64 @@
+[0.031s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_interfaces
+[0.425s] -- The C compiler identification is GNU 9.4.0
+[0.765s] -- The CXX compiler identification is GNU 9.4.0
+[0.784s] -- Check for working C compiler: /usr/bin/cc
+[1.121s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.128s] -- Detecting C compiler ABI info
+[1.455s] -- Detecting C compiler ABI info - done
+[1.485s] -- Detecting C compile features
+[1.485s] -- Detecting C compile features - done
+[1.494s] -- Check for working CXX compiler: /usr/bin/c++
+[1.768s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.775s] -- Detecting CXX compiler ABI info
+[2.042s] -- Detecting CXX compiler ABI info - done
+[2.075s] -- Detecting CXX compile features
+[2.075s] -- Detecting CXX compile features - done
+[2.089s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.126s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.126s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.368s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.452s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.456s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.464s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.560s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.588s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.661s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.739s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.945s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[2.946s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[2.946s]   action_tutorials_interfaces --arguments-file
+[2.946s]   /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_interfaces/rosidl_adapter__arguments__action_tutorials_interfaces.json
+[2.946s]   --output-dir
+[2.946s]   /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_interfaces/rosidl_adapter/action_tutorials_interfaces
+[2.946s]   --output-file
+[2.946s]   /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_interfaces/rosidl_adapter/action_tutorials_interfaces.idls)
+[2.946s]   returned error code 1:
+[2.946s] 
+[2.946s]   Traceback (most recent call last):
+[2.946s] 
+[2.946s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[2.946s]       return _run_code(code, main_globals, None,
+[2.946s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[2.946s]       exec(code, run_globals)
+[2.947s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.947s]       sys.exit(main())
+[2.947s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[2.947s]       abs_idl_file = convert_to_idl(
+[2.947s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[2.947s]       return convert_action_to_idl(
+[2.947s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[2.947s]       action = parse_action_string(package_name, input_file.stem, content)
+[2.947s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 886, in parse_action_string
+[2.947s]       raise InvalidActionSpecification(
+[2.947s] 
+[2.947s]   rosidl_adapter.parser.InvalidActionSpecification: Number of '---'
+[2.947s]   separators nonconformant with action definition
+[2.947s] 
+[2.947s] Call Stack (most recent call first):
+[2.947s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.948s]   CMakeLists.txt:36 (rosidl_generate_interfaces)
+[2.948s] 
+[2.948s] 
+[2.948s] -- Configuring incomplete, errors occurred!
+[2.948s] See also "/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_interfaces/CMakeFiles/CMakeOutput.log".
+[2.955s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_interfaces

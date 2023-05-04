@@ -1,0 +1,41 @@
+[0.025s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_interfaces:/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp:/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/examples_sum:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp -- -j6 -l6
+[0.060s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.084s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.249s] -- Found action_tutorials_interfaces: 0.0.0 (/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[0.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.269s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.473s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.500s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.501s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.604s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[0.626s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.666s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.741s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.742s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.742s] -- Configured cppcheck include dirs: 
+[0.742s] -- Configured cppcheck exclude dirs and/or files: 
+[0.743s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.743s] -- Configured cpplint exclude dirs and/or files: 
+[0.743s] -- Added test 'lint_cmake' to check CMake code style
+[0.743s] -- Added test 'uncrustify' to check C / C++ code style
+[0.743s] -- Configured uncrustify additional arguments: 
+[0.744s] -- Added test 'xmllint' to check XML markup files
+[0.746s] -- Configuring done
+[0.757s] -- Generating done
+[0.760s] -- Build files have been written to: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp
+[0.785s] [35m[1mScanning dependencies of target action_client[0m
+[0.786s] [35m[1mScanning dependencies of target action_server[0m
+[0.803s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[0.817s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[0.827s] [01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/src/action_tutorials_cpp/src/action_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kaction_tutorials_interfaces/action/fibonacci.hpp: No existe el archivo o el directorio
+[0.827s]     3 | #include [01;31m[K"action_tutorials_interfaces/action/fibonacci.hpp"[m[K
+[0.827s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.827s] compilation terminated.
+[0.828s] make[2]: *** [CMakeFiles/action_server.dir/build.make:63: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1
+[0.828s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/action_server.dir/all] Error 2
+[0.828s] make[1]: *** Se espera a que terminen otras tareas....
+[3.270s] [ 75%] [32m[1mLinking CXX executable action_client[0m
+[3.584s] [ 75%] Built target action_client
+[3.585s] make: *** [Makefile:141: all] Error 2
+[3.587s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp' returned '2': CMAKE_PREFIX_PATH=/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_interfaces:/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp:/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/examples_topics:/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/examples_sum:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp -- -j6 -l6

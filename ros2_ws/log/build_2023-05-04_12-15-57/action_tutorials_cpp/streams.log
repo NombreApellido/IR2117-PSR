@@ -1,0 +1,79 @@
+[0.025s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp
+[0.078s] -- The C compiler identification is GNU 9.4.0
+[0.133s] -- The CXX compiler identification is GNU 9.4.0
+[0.140s] -- Check for working C compiler: /usr/bin/cc
+[0.207s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.208s] -- Detecting C compiler ABI info
+[0.278s] -- Detecting C compiler ABI info - done
+[0.287s] -- Detecting C compile features
+[0.287s] -- Detecting C compile features - done
+[0.290s] -- Check for working CXX compiler: /usr/bin/c++
+[0.367s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.369s] -- Detecting CXX compiler ABI info
+[0.447s] -- Detecting CXX compiler ABI info - done
+[0.461s] -- Detecting CXX compile features
+[0.461s] -- Detecting CXX compile features - done
+[0.464s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.491s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.491s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.663s] -- Found action_tutorials_interfaces: 0.0.0 (/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[0.696s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.701s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.775s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.800s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.858s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.977s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.021s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.023s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.027s] -- Looking for pthread.h
+[1.109s] -- Looking for pthread.h - found
+[1.109s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.186s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.186s] -- Looking for pthread_create in pthreads
+[1.245s] -- Looking for pthread_create in pthreads - not found
+[1.246s] -- Looking for pthread_create in pthread
+[1.322s] -- Looking for pthread_create in pthread - found
+[1.323s] -- Found Threads: TRUE  
+[1.451s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.479s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.531s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.609s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.610s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.610s] -- Configured cppcheck include dirs: 
+[1.610s] -- Configured cppcheck exclude dirs and/or files: 
+[1.610s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.610s] -- Configured cpplint exclude dirs and/or files: 
+[1.611s] -- Added test 'lint_cmake' to check CMake code style
+[1.612s] -- Added test 'uncrustify' to check C / C++ code style
+[1.612s] -- Configured uncrustify additional arguments: 
+[1.612s] -- Added test 'xmllint' to check XML markup files
+[1.615s] -- Configuring done
+[1.623s] -- Generating done
+[1.625s] -- Build files have been written to: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp
+[1.633s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp
+[1.636s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp -- -j6 -l6
+[1.680s] [35m[1mScanning dependencies of target action_server[0m
+[1.767s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[4.026s] [100%] [32m[1mLinking CXX executable action_server[0m
+[4.263s] [100%] Built target action_server
+[4.275s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp -- -j6 -l6
+[4.314s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp
+[4.322s] -- Install configuration: ""
+[4.322s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/action_server
+[4.332s] -- Set runtime path of "/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/action_server" to ""
+[4.332s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[4.333s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[4.333s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[4.333s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[4.334s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[4.334s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[4.335s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[4.336s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[4.336s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[4.336s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[4.337s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[4.337s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[4.337s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[4.338s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[4.338s] -- Installing: /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[4.341s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2117-PSR/ros2_ws/build/action_tutorials_cpp
