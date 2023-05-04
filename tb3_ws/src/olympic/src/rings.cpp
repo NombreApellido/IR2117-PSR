@@ -26,6 +26,29 @@ int main(int argc, char * argv[])
   
   auto request = std::make_shared<SetPen::Request>();
   
+  request->width = 5; 
+
+  std::vector<int> r = {0, 0, 255, 255, 0};
+  std::vector<int> g = {0, 0, 0, 255, 255};
+  std::vector<int> b = {0, 255, 0, 0, 0};   
+
+  while (!client->wait_for_service(1s)) {
+    if (!rclcpp::ok()) {
+      RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service.");
+      return 0;
+    }
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "service not available, waiting again...");
+  }
+
+  auto result = client->async_send_request(request);
+
+  if (rclcpp::spin_until_future_complete(node,result) == rclcpp::FutureReturnCode::SUCCESS)
+  {
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Todo bien");
+  } else  {
+    RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service SetPen");
+  }
+  
   while (!client->wait_for_service(1s)) {
     if (!rclcpp::ok()) {
       RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service.");
