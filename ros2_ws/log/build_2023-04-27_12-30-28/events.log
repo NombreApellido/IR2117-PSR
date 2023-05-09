@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000328] (-) JobUnselected: {'identifier': 'examples_sum'}
-[0.000376] (-) JobUnselected: {'identifier': 'examples_topics'}
-[0.000393] (-) EventReactorShutdown: {}
