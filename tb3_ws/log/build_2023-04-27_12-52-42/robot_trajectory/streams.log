@@ -1,4 +1,0 @@
-[0.029s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory -- -j6 -l6
-[0.075s] [ 33%] Built target wandering
-[0.076s] [ 66%] Built target square
-[0.079s] [100%] Built target square_odom

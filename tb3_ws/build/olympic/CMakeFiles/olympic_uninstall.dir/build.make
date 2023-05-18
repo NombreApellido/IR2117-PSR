@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/olympic
+CMAKE_SOURCE_DIR = /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic
@@ -71,6 +71,6 @@ CMakeFiles/olympic_uninstall.dir/clean:
 .PHONY : CMakeFiles/olympic_uninstall.dir/clean
 
 CMakeFiles/olympic_uninstall.dir/depend:
-	cd /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/olympic /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/olympic /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic/CMakeFiles/olympic_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic/CMakeFiles/olympic_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/olympic_uninstall.dir/depend
 

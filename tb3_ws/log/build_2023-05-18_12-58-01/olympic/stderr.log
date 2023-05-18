@@ -1,0 +1,111 @@
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: en la función `_start':
+(.text+0x24): referencia a `main' sin definir
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/rings_action_server.dir/build.make:167: rings_action_server] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/rings_action_server.dir/all] Error 2
+make[1]: *** Se espera a que terminen otras tareas....
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings.cpp:71:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kradius[m[K’ was not declared in this scope
+   71 |   std::vector<double> x = {5.5, (5.5-2*[01;31m[Kradius[m[K), (5.5+2*radius), (5.5-radius), (5.5+radius)};
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings.cpp:71:91:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{5.5e+0, <expression error>, <expression error>, <expression error>, <expression error>}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’
+   71 |   std::vector<double> x = {5.5, (5.5-2*radius), (5.5+2*radius), (5.5-radius), (5.5+radius)[01;31m[K}[m[K;
+      |                                                                                           [01;31m[K^[m[K
+      |                                                                                           [01;31m[K|[m[K
+      |                                                                                           [01;31m[K<brace-enclosed initializer list>[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings.cpp:72:69:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{5.5e+0, 5.5e+0, 5.5e+0, <expression error>, <expression error>}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’
+   72 |   std::vector<double> y = {5.5, 5.5, 5.5, (5.5-radius), (5.5-radius)[01;31m[K}[m[K;
+      |                                                                     [01;31m[K^[m[K
+      |                                                                     [01;31m[K|[m[K
+      |                                                                     [01;31m[K<brace-enclosed initializer list>[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings.cpp:93:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kred[m[K’
+   93 |     request->[01;31m[Kred[m[K = red[i];
+      |              [01;31m[K^~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings.cpp:94:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kgreen[m[K’
+   94 |     request->[01;31m[Kgreen[m[K = green[i];
+      |              [01;31m[K^~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings.cpp:95:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kblue[m[K’
+   95 |     request->[01;31m[Kblue[m[K = blue[i];
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings.cpp:24:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpublish_count[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   24 |  auto [01;35m[Kpublish_count[m[K = 0;
+      |       [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings.cpp:27:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradius_length[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   27 |  double [01;35m[Kradius_length[m[K = node->get_parameter("radius_length").get_parameter_value().get<double>();
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings.cpp:118:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  118 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings.cpp:17:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   17 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:8:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_tutorials_interfaces[m[K’ does not name a type
+    8 |   [01;31m[Kaction_tutorials_interfaces[m[K::action::rings;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:11:35:[m[K [01;31m[Kerror: [m[K‘[01m[Krings[m[K’ was not declared in this scope
+   11 |   rclcpp_action::ClientGoalHandle<[01;31m[Krings[m[K>;
+      |                                   [01;31m[K^~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:11:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   11 |   rclcpp_action::ClientGoalHandle<rings[01;31m[K>[m[K;
+      |                                        [01;31m[K^[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:17:24:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kfeedback_callback[m[K’ declared void
+   17 | void feedback_callback([01;31m[KGoalHandlerings[m[K::SharedPtr,
+      |                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:17:24:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandlerings[m[K’ has not been declared
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:18:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+   18 |   [01;31m[Kconst[m[K std::shared_ptr<const rings::Feedback> feedback)
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:30:53:[m[K [01;31m[Kerror: [m[K‘[01m[Krings[m[K’ was not declared in this scope
+   30 |   auto action_client = rclcpp_action::create_client<[01;31m[Krings[m[K>(
+      |                                                     [01;31m[K^~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:31:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_client<<expression error> >(rclcpp::Node::SharedPtr&, const char [6])[m[K’
+   31 |     g_node, "rings"[01;31m[K)[m[K;
+      |                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp_action/rclcpp_action.hpp:38[m[K,
+                 from [01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:5[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp_action/create_client.hpp:43:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeGraphInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+   43 | [01;36m[Kcreate_client[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp_action/create_client.hpp:43:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:31:20:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |     g_node, "rings"[01;31m[K)[m[K;
+      |                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp_action/rclcpp_action.hpp:38[m[K,
+                 from [01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:5[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp_action/create_client.hpp:101:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(NodeT, const string&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  101 | [01;36m[Kcreate_client[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp_action/create_client.hpp:101:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:31:20:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |     g_node, "rings"[01;31m[K)[m[K;
+      |                    [01;31m[K^[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:38:19:[m[K [01;31m[Kerror: [m[K‘[01m[Krings[m[K’ is not a class, namespace, or enumeration
+   38 |   auto goal_msg = [01;31m[Krings[m[K::Goal();
+      |                   [01;31m[K^~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:46:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_callback[m[K’ was not declared in this scope
+   46 |   send_goal_options.feedback_callback = [01;31m[Kfeedback_callback[m[K;
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:60:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandlerings[m[K’ has not been declared
+   60 |   [01;31m[KGoalHandlerings[m[K::SharedPtr goal_handle =
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:62:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+   62 |   if (![01;31m[Kgoal_handle[m[K) {
+      |        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:68:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+   68 |     action_client->async_get_result([01;31m[Kgoal_handle[m[K);
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:81:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandlerings[m[K’ has not been declared
+   81 |   [01;31m[KGoalHandlerings[m[K::WrappedResult wrapped_result =
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:84:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrapped_result[m[K’ was not declared in this scope
+   84 |   switch ([01;31m[Kwrapped_result[m[K.code) {
+      |           [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:98:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrapped_result[m[K’ was not declared in this scope
+   98 |   for (auto number : [01;31m[Kwrapped_result[m[K.result->sequence) {
+      |                      [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/rings_action_client.dir/build.make:63: CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/rings_action_client.dir/all] Error 2
+make[2]: *** [CMakeFiles/rings.dir/build.make:63: CMakeFiles/rings.dir/src/rings.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/rings.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
