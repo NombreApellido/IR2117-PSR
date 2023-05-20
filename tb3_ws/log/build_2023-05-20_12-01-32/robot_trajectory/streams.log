@@ -1,0 +1,29 @@
+[0.112s] Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory -- -j2 -l2
+[0.288s] [ 33%] Built target wandering
+[0.343s] [ 66%] Built target square_odom
+[0.417s] [100%] Built target square
+[0.441s] Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory -- -j2 -l2
+[0.505s] Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory
+[0.528s] -- Install configuration: ""
+[0.528s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square
+[0.530s] -- Set runtime path of "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square" to ""
+[0.530s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square_odom
+[0.533s] -- Set runtime path of "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square_odom" to ""
+[0.534s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib/robot_trajectory/wandering
+[0.537s] -- Set runtime path of "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib/robot_trajectory/wandering" to ""
+[0.538s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/package_run_dependencies/robot_trajectory
+[0.538s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/parent_prefix_path/robot_trajectory
+[0.539s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.sh
+[0.540s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.dsv
+[0.541s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/path.sh
+[0.541s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/path.dsv
+[0.542s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.bash
+[0.544s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.sh
+[0.545s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.zsh
+[0.546s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/local_setup.dsv
+[0.547s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.dsv
+[0.548s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/packages/robot_trajectory
+[0.549s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig.cmake
+[0.550s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/cmake/robot_trajectoryConfig-version.cmake
+[0.552s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.xml
+[0.555s] Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory

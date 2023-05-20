@@ -1,0 +1,132 @@
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:24:25:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleRadius[m[K’ was not declared in this scope; did you mean ‘[01m[KGoalHandleRings[m[K’?
+   24 |   const std::shared_ptr<[01;31m[KGoalHandleRadius[m[K> goal_handle)
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                         [32m[KGoalHandleRings[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:24:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |   const std::shared_ptr<GoalHandleRadius[01;31m[K>[m[K goal_handle)
+      |                                         [01;31m[K^[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:32:36:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleRadius[m[K’ was not declared in this scope; did you mean ‘[01m[KGoalHandleRings[m[K’?
+   32 | void execute(const std::shared_ptr<[01;31m[KGoalHandleRadius[m[K>);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                    [32m[KGoalHandleRings[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:32:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 | void execute(const std::shared_ptr<GoalHandleRadius[01;31m[K>[m[K);
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:35:25:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleRadius[m[K’ was not declared in this scope; did you mean ‘[01m[KGoalHandleRings[m[K’?
+   35 |   const std::shared_ptr<[01;31m[KGoalHandleRadius[m[K> goal_handle)
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                         [32m[KGoalHandleRings[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:35:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |   const std::shared_ptr<GoalHandleRadius[01;31m[K>[m[K goal_handle)
+      |                                         [01;31m[K^[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:41:25:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleRadius[m[K’ was not declared in this scope; did you mean ‘[01m[KGoalHandleRings[m[K’?
+   41 |   const std::shared_ptr<[01;31m[KGoalHandleRadius[m[K> goal_handle)
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                         [32m[KGoalHandleRings[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:41:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   41 |   const std::shared_ptr<GoalHandleRadius[01;31m[K>[m[K goal_handle)
+      |                                         [01;31m[K^[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:[m[K In function ‘[01m[Kvoid execute(int)[m[K’:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:46:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   46 |   const auto goal = goal_handle[01;31m[K->[m[Kget_goal();
+      |                                [01;31m[K^~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:47:36:[m[K [01;31m[Kerror: [m[K‘[01m[KRadius[m[K’ was not declared in this scope
+   47 |   auto feedback = std::make_shared<[01;31m[KRadius[m[K::Feedback>();
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:47:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   47 |   auto feedback = std::[01;31m[Kmake_shared<Radius::Feedback>[m[K();
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:47:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   47 |   auto feedback = std::make_shared<Radius::Feedback>([01;31m[K)[m[K;
+      |                                                      [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:47:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   47 |   auto feedback = std::make_shared<Radius::Feedback>([01;31m[K)[m[K;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:51:22:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   51 |   auto result = std::[01;31m[Kmake_shared<Radius::Result>[m[K();
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:51:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<Radius>()[m[K’
+   51 |   auto result = std::make_shared<Radius::Result>([01;31m[K)[m[K;
+      |                                                  [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:54:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   54 |     if (goal_handle[01;31m[K->[m[Kis_canceling()) {
+      |                    [01;31m[K^~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:56:18:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   56 |       goal_handle[01;31m[K->[m[Kcanceled(result);
+      |                  [01;31m[K^~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:62:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   62 |     goal_handle[01;31m[K->[m[Kpublish_feedback(feedback);
+      |                [01;31m[K^~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:69:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   69 |     goal_handle[01;31m[K->[m[Ksucceed(result);
+      |                [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:4[m[K:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:[m[K In function ‘[01m[Kvoid feedback_callback(rclcpp_action::ClientGoalHandle<olympic_interfaces::action::Rings>::SharedPtr, std::shared_ptr<const olympic_interfaces::action::Rings_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:23:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct olympic_interfaces::action::Rings_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct olympic_interfaces::action::Rings_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpartial_sequence[m[K’
+   23 |     feedback->[01;31m[Kpartial_sequence[m[K.back());
+      |               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[Kg_node[m[K’?
+   39 |   [01;31m[Knode[m[K->declare_parameter("radius", 1.0);
+      |   [01;31m[K^~~~[m[K
+      |   [32m[Kg_node[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:41:77:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+   41 |   goal_msg.radius = node->get_parameter("radius").get_parameter_value().get<[01;31m[Kdouble[m[K>();
+      |                                                                             [01;31m[K^~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:62:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ has not been declared
+   62 |   [01;31m[KGoalHandleFibonacci[m[K::SharedPtr goal_handle =
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:64:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+   64 |   if (![01;31m[Kgoal_handle[m[K) {
+      |        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:71:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+   71 |     action_client->async_get_result([01;31m[Kgoal_handle[m[K);
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:84:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<Rings>(std::shared_ptr<rclcpp::Node>&, const char [6], rclcpp_action::GoalResponse (&)(const GoalUUID&, std::shared_ptr<const olympic_interfaces::action::Rings_Goal_<std::allocator<void> > >), rclcpp_action::CancelResponse (&)(int), void (&)(int))[m[K’
+   84 |       handle_accepted[01;31m[K)[m[K;
+      |                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp_action/rclcpp_action.hpp:39[m[K,
+                 from [01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:5[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr) [with ActionT = olympic_interfaces::action::Rings; typename rclcpp_action::Server<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::Server<olympic_interfaces::action::Rings> >; rclcpp::node_interfaces::NodeBaseInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>; rclcpp::node_interfaces::NodeClockInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeClockInterface>; rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>; rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeWaitablesInterface>; std::string = std::__cxx11::basic_string<char>; typename rclcpp_action::Server<ActionT>::GoalCallback = std::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const olympic_interfaces::action::Rings_Goal_<std::allocator<void> > >)>; typename rclcpp_action::Server<ActionT>::CancelCallback = std::function<rclcpp_action::CancelResponse(std::shared_ptr<rclcpp_action::ServerGoalHandle<olympic_interfaces::action::Rings> >)>; typename rclcpp_action::Server<ActionT>::AcceptedCallback = std::function<void(std::shared_ptr<rclcpp_action::ServerGoalHandle<olympic_interfaces::action::Rings> >)>; rcl_action_server_options_t = rcl_action_server_options_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+   58 | [01;36m[Kcreate_server[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  candidate expects 10 arguments, 5 provided
+[01m[K/opt/ros/foxy/include/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  132 | [01;36m[Kcreate_server[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:83:7:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Khandle_cancel[m[K’ (type ‘[01m[Krclcpp_action::CancelResponse(int)[m[K’) to type ‘[01m[Krclcpp_action::Server<olympic_interfaces::action::Rings>::CancelCallback[m[K’ {aka ‘[01m[Kstd::function<rclcpp_action::CancelResponse(std::shared_ptr<rclcpp_action::ServerGoalHandle<olympic_interfaces::action::Rings> >)>[m[K’}
+   83 |       [01;36m[Khandle_cancel[m[K,
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:104:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct olympic_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct olympic_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+  104 |   for (auto number : wrapped_result.result->[01;31m[Ksequence[m[K) {
+      |                                             [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/action_server.dir/build.make:63: CMakeFiles/action_server.dir/src/rings_action_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/action_server.dir/all] Error 2
+make[1]: *** Se espera a que terminen otras tareas....
+make[2]: *** [CMakeFiles/action_client.dir/build.make:63: CMakeFiles/action_client.dir/src/rings_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/action_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

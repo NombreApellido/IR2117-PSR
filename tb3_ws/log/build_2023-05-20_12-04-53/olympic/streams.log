@@ -1,0 +1,25 @@
+[0.062s] Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic': AMENT_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic -- -j2 -l2
+[0.146s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.222s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.661s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.748s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.755s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.987s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.106s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.109s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.505s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[1.763s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.845s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.983s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[2.058s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.185s] -- Found olympic_interfaces: 0.0.0 (/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake)
+[2.328s] CMake Error at CMakeLists.txt:40 (install):
+[2.329s]   install TARGETS given target "rings_action_server" which does not exist.
+[2.329s] 
+[2.329s] 
+[2.330s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.465s] -- Configuring incomplete, errors occurred!
+[2.465s] See also "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic/CMakeFiles/CMakeOutput.log".
+[2.465s] See also "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic/CMakeFiles/CMakeError.log".
+[2.490s] make: *** [Makefile:327: cmake_check_build_system] Error 1
+[2.497s] Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic' returned '2': AMENT_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic -- -j2 -l2

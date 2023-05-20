@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -std=gnu++14
 
 CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"olympic_interfaces\" -Dolympic_interfaces__rosidl_typesupport_introspection_cpp_EXPORTS
 
-CXX_INCLUDES = -I/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_cpp -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_cpp -isystem /opt/ros/foxy/include 
 

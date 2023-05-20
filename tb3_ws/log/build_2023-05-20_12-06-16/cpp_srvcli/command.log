@@ -1,0 +1,4 @@
+Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli -- -j2 -l2
+Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli -- -j2 -l2
+Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli
+Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli

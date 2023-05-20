@@ -1,0 +1,38 @@
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:[m[K In function ‘[01m[Kvoid execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<olympic_interfaces::action::Rings> >)[m[K’:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct olympic_interfaces::action::Rings_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct olympic_interfaces::action::Rings_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpartial_sequence[m[K’
+   48 |   auto & sequence = feedback->[01;31m[Kpartial_sequence[m[K;
+      |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:53:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct olympic_interfaces::action::Rings_Goal_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct olympic_interfaces::action::Rings_Goal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korder[m[K’
+   53 |     for (int i = 1; (i < goal->[01;31m[Korder[m[K) && rclcpp::ok(); ++i) {
+      |                                [01;31m[K^~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:55:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct olympic_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct olympic_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+   55 |       result->[01;31m[Ksequence[m[K = sequence;
+      |               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_server.cpp:68:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct olympic_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct olympic_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+   68 |     result->[01;31m[Ksequence[m[K = sequence;
+      |             [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:4[m[K:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:[m[K In function ‘[01m[Kvoid feedback_callback(rclcpp_action::ClientGoalHandle<olympic_interfaces::action::Rings>::SharedPtr, std::shared_ptr<const olympic_interfaces::action::Rings_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:23:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct olympic_interfaces::action::Rings_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct olympic_interfaces::action::Rings_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpartial_sequence[m[K’
+   23 |     feedback->[01;31m[Kpartial_sequence[m[K.back());
+      |               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:104:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct olympic_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct olympic_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+  104 |   for (auto number : wrapped_result.result->[01;31m[Ksequence[m[K) {
+      |                                             [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/action_server.dir/build.make:63: CMakeFiles/action_server.dir/src/rings_action_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/action_server.dir/all] Error 2
+make[1]: *** Se espera a que terminen otras tareas....
+make[2]: *** [CMakeFiles/action_client.dir/build.make:63: CMakeFiles/action_client.dir/src/rings_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/action_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,12 @@
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: en la función `_start':
+(.text+0x24): referencia a `main' sin definir
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/action_client.dir/build.make:158: action_client] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/action_client.dir/all] Error 2
+make[1]: *** Se espera a que terminen otras tareas....
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: en la función `_start':
+(.text+0x24): referencia a `main' sin definir
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/action_server.dir/build.make:158: action_server] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/action_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

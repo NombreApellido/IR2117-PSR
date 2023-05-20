@@ -1,0 +1,83 @@
+[0.057s] Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli
+[0.186s] -- The C compiler identification is GNU 9.4.0
+[0.332s] -- The CXX compiler identification is GNU 9.4.0
+[0.342s] -- Check for working C compiler: /usr/bin/cc
+[0.474s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.474s] -- Detecting C compiler ABI info
+[0.599s] -- Detecting C compiler ABI info - done
+[0.634s] -- Detecting C compile features
+[0.634s] -- Detecting C compile features - done
+[0.640s] -- Check for working CXX compiler: /usr/bin/c++
+[0.793s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.795s] -- Detecting CXX compiler ABI info
+[0.998s] -- Detecting CXX compiler ABI info - done
+[1.042s] -- Detecting CXX compile features
+[1.044s] -- Detecting CXX compile features - done
+[1.048s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.091s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.091s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.547s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.658s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.670s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.817s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.885s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.087s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.267s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.270s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.272s] -- Looking for pthread.h
+[2.448s] -- Looking for pthread.h - found
+[2.448s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.579s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.580s] -- Looking for pthread_create in pthreads
+[2.687s] -- Looking for pthread_create in pthreads - not found
+[2.687s] -- Looking for pthread_create in pthread
+[2.817s] -- Looking for pthread_create in pthread - found
+[2.820s] -- Found Threads: TRUE  
+[3.240s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[3.602s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.763s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.765s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.766s] -- Configured cppcheck include dirs: 
+[3.766s] -- Configured cppcheck exclude dirs and/or files: 
+[3.767s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.767s] -- Configured cpplint exclude dirs and/or files: 
+[3.769s] -- Added test 'lint_cmake' to check CMake code style
+[3.770s] -- Added test 'uncrustify' to check C / C++ code style
+[3.770s] -- Configured uncrustify additional arguments: 
+[3.771s] -- Added test 'xmllint' to check XML markup files
+[3.778s] -- Configuring done
+[3.808s] -- Generating done
+[3.816s] -- Build files have been written to: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli
+[3.831s] Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli
+[3.837s] Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli -- -j2 -l2
+[3.916s] [35m[1mScanning dependencies of target client[0m
+[3.942s] [35m[1mScanning dependencies of target server[0m
+[4.162s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[4.195s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[12.952s] [ 75%] [32m[1mLinking CXX executable server[0m
+[13.597s] [ 75%] Built target server
+[14.877s] [100%] [32m[1mLinking CXX executable client[0m
+[15.414s] [100%] Built target client
+[15.462s] Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli -- -j2 -l2
+[15.722s] Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli
+[15.759s] -- Install configuration: ""
+[15.760s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[15.761s] -- Set runtime path of "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[15.762s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[15.763s] -- Set runtime path of "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[15.764s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[15.765s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[15.774s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[15.774s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[15.775s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[15.776s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[15.777s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[15.778s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[15.779s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[15.780s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[15.781s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[15.782s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[15.783s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[15.783s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[15.784s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[15.788s] Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli

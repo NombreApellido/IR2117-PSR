@@ -43,17 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces
+CMAKE_SOURCE_DIR = /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces
+CMAKE_BINARY_DIR = /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces
 
 # Utility rule file for olympic_interfaces.
 
 # Include the progress variables for this target.
 include CMakeFiles/olympic_interfaces.dir/progress.make
 
-CMakeFiles/olympic_interfaces: /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces/action/Rings.action
+CMakeFiles/olympic_interfaces: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces/action/Rings.action
 CMakeFiles/olympic_interfaces: /opt/ros/foxy/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/olympic_interfaces: /opt/ros/foxy/share/action_msgs/msg/GoalStatus.idl
 CMakeFiles/olympic_interfaces: /opt/ros/foxy/share/action_msgs/msg/GoalStatusArray.idl
@@ -75,6 +75,6 @@ CMakeFiles/olympic_interfaces.dir/clean:
 .PHONY : CMakeFiles/olympic_interfaces.dir/clean
 
 CMakeFiles/olympic_interfaces.dir/depend:
-	cd /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/CMakeFiles/olympic_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/CMakeFiles/olympic_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/olympic_interfaces.dir/depend
 

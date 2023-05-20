@@ -1,0 +1,65 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+-- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found olympic_interfaces: 0.0.0 (/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic
+[35m[1mScanning dependencies of target action_client[0m
+[ 16%] [32m[1mLinking CXX executable action_server[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/rings_action_client.cpp.o[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: en la función `_start':
+(.text+0x24): referencia a `main' sin definir
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/action_server.dir/build.make:158: action_server] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/action_server.dir/all] Error 2
+make[1]: *** Se espera a que terminen otras tareas....
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:4[m[K:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:[m[K In function ‘[01m[Kvoid feedback_callback(rclcpp_action::ClientGoalHandle<olympic_interfaces::action::Rings>::SharedPtr, std::shared_ptr<const olympic_interfaces::action::Rings_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:23:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct olympic_interfaces::action::Rings_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct olympic_interfaces::action::Rings_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpartial_sequence[m[K’
+   23 |     feedback->[01;31m[Kpartial_sequence[m[K.back());
+      |               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[Kg_node[m[K’?
+   39 |   [01;31m[Knode[m[K->declare_parameter("radius", 1.0);
+      |   [01;31m[K^~~~[m[K
+      |   [32m[Kg_node[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:41:77:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+   41 |   goal_msg.radius = node->get_parameter("radius").get_parameter_value().get<[01;31m[Kdouble[m[K>();
+      |                                                                             [01;31m[K^~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:62:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleFibonacci[m[K’ has not been declared
+   62 |   [01;31m[KGoalHandleFibonacci[m[K::SharedPtr goal_handle =
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:64:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+   64 |   if (![01;31m[Kgoal_handle[m[K) {
+      |        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:71:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+   71 |     action_client->async_get_result([01;31m[Kgoal_handle[m[K);
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:104:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct olympic_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct olympic_interfaces::action::Rings_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+  104 |   for (auto number : wrapped_result.result->[01;31m[Ksequence[m[K) {
+      |                                             [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/action_client.dir/build.make:63: CMakeFiles/action_client.dir/src/rings_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/action_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

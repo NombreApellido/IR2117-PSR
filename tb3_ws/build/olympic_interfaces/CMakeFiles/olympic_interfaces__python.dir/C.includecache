@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/action/_rings_s.c
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/action/_rings_s.c
 Python.h
 -
 stdbool.h
 -
 numpy/ndarrayobject.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/action/numpy/ndarrayobject.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/action/numpy/ndarrayobject.h
 rosidl_runtime_c/visibility_control.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/action/rosidl_runtime_c/visibility_control.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/action/rosidl_runtime_c/visibility_control.h
 olympic_interfaces/action/detail/rings__struct.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/action/olympic_interfaces/action/detail/rings__struct.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/action/olympic_interfaces/action/detail/rings__struct.h
 olympic_interfaces/action/detail/rings__functions.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/action/olympic_interfaces/action/detail/rings__functions.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/action/olympic_interfaces/action/detail/rings__functions.h
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.h
 stdbool.h

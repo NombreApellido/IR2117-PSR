@@ -1,0 +1,401 @@
+[0.720s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.720s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ffbd21fd8e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ffbd21fd8e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ffbd21fde50>)
+[0.772s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.772s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.772s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.773s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.773s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.773s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.773s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'ignore'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'ignore_ament_install'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extensions ['colcon_pkg']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'colcon_pkg'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extensions ['colcon_meta']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'colcon_meta'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extensions ['ros']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'ros'
+[0.824s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2023_03_28-12_32_38) by extensions ['ignore', 'ignore_ament_install']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2023_03_28-12_32_38) by extension 'ignore'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2023_03_28-12_32_38) by extension 'ignore_ament_install'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2023_03_28-12_32_38) by extensions ['colcon_pkg']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2023_03_28-12_32_38) by extension 'colcon_pkg'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2023_03_28-12_32_38) by extensions ['colcon_meta']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2023_03_28-12_32_38) by extension 'colcon_meta'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2023_03_28-12_32_38) by extensions ['ros']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2023_03_28-12_32_38) by extension 'ros'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2023_03_28-12_32_38) by extensions ['cmake', 'python']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2023_03_28-12_32_38) by extension 'cmake'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2023_03_28-12_32_38) by extension 'python'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2023_03_28-12_32_38) by extensions ['python_setup_py']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2023_03_28-12_32_38) by extension 'python_setup_py'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extensions ['ignore', 'ignore_ament_install']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extension 'ignore'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extension 'ignore_ament_install'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extensions ['colcon_pkg']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extension 'colcon_pkg'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extensions ['colcon_meta']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extension 'colcon_meta'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extensions ['ros']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacles) by extension 'ros'
+[0.829s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obstacles' with type 'ros.ament_cmake' and name 'obstacles'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extensions ['ignore', 'ignore_ament_install']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extension 'ignore'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extension 'ignore_ament_install'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extensions ['colcon_pkg']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extension 'colcon_pkg'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extensions ['colcon_meta']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extension 'colcon_meta'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extensions ['ros']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic) by extension 'ros'
+[0.831s] DEBUG:colcon.colcon_core.package_identification:Package 'src/olympic' with type 'ros.ament_cmake' and name 'olympic'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extension 'ignore'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extension 'ignore_ament_install'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extensions ['colcon_pkg']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extension 'colcon_pkg'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extensions ['colcon_meta']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extension 'colcon_meta'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extensions ['ros']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/olympic_interfaces) by extension 'ros'
+[0.835s] DEBUG:colcon.colcon_core.package_identification:Package 'src/olympic_interfaces' with type 'ros.ament_cmake' and name 'olympic_interfaces'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extensions ['ignore', 'ignore_ament_install']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extension 'ignore_ament_install'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extensions ['colcon_pkg']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extension 'colcon_pkg'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extensions ['colcon_meta']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extension 'colcon_meta'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extensions ['ros']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_trajectory) by extension 'ros'
+[0.837s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_trajectory' with type 'ros.ament_cmake' and name 'robot_trajectory'
+[0.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.884s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_args' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.044s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli', 'merge_install': False, 'path': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/cpp_srvcli', 'symlink_install': False, 'test_result_base': None}
+[1.046s] Level 5:colcon.colcon_core.verb:set package 'obstacles' build argument 'cmake_args' from command line to 'None'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'obstacles' build argument 'cmake_target' from command line to 'None'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'obstacles' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'obstacles' build argument 'cmake_clean_cache' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'obstacles' build argument 'cmake_clean_first' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'obstacles' build argument 'cmake_force_configure' from command line to 'False'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'obstacles' build argument 'ament_cmake_args' from command line to 'None'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'obstacles' build argument 'catkin_cmake_args' from command line to 'None'
+[1.047s] Level 5:colcon.colcon_core.verb:set package 'obstacles' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.047s] DEBUG:colcon.colcon_core.verb:Building package 'obstacles' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles', 'merge_install': False, 'path': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles', 'symlink_install': False, 'test_result_base': None}
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'olympic_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'olympic_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'olympic_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'olympic_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'olympic_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'olympic_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'olympic_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'olympic_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'olympic_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.050s] DEBUG:colcon.colcon_core.verb:Building package 'olympic_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces', 'merge_install': False, 'path': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'robot_trajectory' build argument 'cmake_args' from command line to 'None'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'robot_trajectory' build argument 'cmake_target' from command line to 'None'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'robot_trajectory' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'robot_trajectory' build argument 'cmake_clean_cache' from command line to 'False'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'robot_trajectory' build argument 'cmake_clean_first' from command line to 'False'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'robot_trajectory' build argument 'cmake_force_configure' from command line to 'False'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'robot_trajectory' build argument 'ament_cmake_args' from command line to 'None'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'robot_trajectory' build argument 'catkin_cmake_args' from command line to 'None'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'robot_trajectory' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.053s] DEBUG:colcon.colcon_core.verb:Building package 'robot_trajectory' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory', 'merge_install': False, 'path': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory', 'symlink_install': False, 'test_result_base': None}
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'cmake_args' from command line to 'None'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'cmake_target' from command line to 'None'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'cmake_clean_cache' from command line to 'False'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'cmake_clean_first' from command line to 'False'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'cmake_force_configure' from command line to 'False'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'ament_cmake_args' from command line to 'None'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'catkin_cmake_args' from command line to 'None'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'olympic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.056s] DEBUG:colcon.colcon_core.verb:Building package 'olympic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic', 'merge_install': False, 'path': '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic', 'symlink_install': False, 'test_result_base': None}
+[1.058s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.065s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.066s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces' with build type 'ament_cmake'
+[1.066s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces'
+[1.076s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.076s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.076s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.090s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/cpp_srvcli' with build type 'ament_cmake'
+[1.091s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/cpp_srvcli'
+[1.094s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.095s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces -- -j2 -l2
+[1.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli -- -j2 -l2
+[1.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli -- -j2 -l2
+[1.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli
+[1.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[1.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/cpp_srvcli
+[1.579s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli' for CMake module files
+[1.580s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli' for CMake config files
+[1.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/lib'
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/bin'
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[1.592s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/lib/python3.8/site-packages'
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/bin'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[1.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[1.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[1.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[1.725s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli' for CMake module files
+[1.727s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli' for CMake config files
+[1.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[1.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[1.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[1.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[1.738s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/lib'
+[1.738s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/bin'
+[1.739s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/lib/python3.8/site-packages'
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/bin'
+[1.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[1.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[1.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[1.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[1.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[1.761s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles' with build type 'ament_cmake'
+[1.761s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/obstacles'
+[1.764s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles -- -j2 -l2
+[1.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces -- -j2 -l2
+[1.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles -- -j2 -l2
+[2.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles
+[2.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces
+[2.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacles)
+[2.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles' for CMake module files
+[2.058s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles' for CMake config files
+[2.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacles', 'cmake_prefix_path')
+[2.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/hook/cmake_prefix_path.ps1'
+[2.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/hook/cmake_prefix_path.dsv'
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/hook/cmake_prefix_path.sh'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/bin'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib/pkgconfig/obstacles.pc'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib/python3.8/site-packages'
+[2.082s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/bin'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.ps1'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.dsv'
+[2.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.sh'
+[2.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.bash'
+[2.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.zsh'
+[2.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/colcon-core/packages/obstacles)
+[2.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacles)
+[2.161s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles' for CMake module files
+[2.168s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles' for CMake config files
+[2.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacles', 'cmake_prefix_path')
+[2.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/hook/cmake_prefix_path.ps1'
+[2.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/hook/cmake_prefix_path.dsv'
+[2.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/hook/cmake_prefix_path.sh'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/bin'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib/pkgconfig/obstacles.pc'
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/lib/python3.8/site-packages'
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/bin'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.ps1'
+[2.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.dsv'
+[2.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.sh'
+[2.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.bash'
+[2.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/obstacles/package.zsh'
+[2.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/obstacles/share/colcon-core/packages/obstacles)
+[2.189s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory' with build type 'ament_cmake'
+[2.190s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/robot_trajectory'
+[2.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.204s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(olympic_interfaces)
+[2.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces
+[2.214s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces' for CMake module files
+[2.215s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces' for CMake config files
+[2.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('olympic_interfaces', 'cmake_prefix_path')
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/cmake_prefix_path.ps1'
+[2.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/cmake_prefix_path.dsv'
+[2.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/cmake_prefix_path.sh'
+[2.224s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib'
+[2.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('olympic_interfaces', 'ld_library_path_lib')
+[2.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/ld_library_path_lib.ps1'
+[2.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/ld_library_path_lib.dsv'
+[2.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/ld_library_path_lib.sh'
+[2.231s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/bin'
+[2.232s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib/pkgconfig/olympic_interfaces.pc'
+[2.232s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages'
+[2.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('olympic_interfaces', 'pythonpath')
+[2.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/pythonpath.ps1'
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/pythonpath.dsv'
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/pythonpath.sh'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/bin'
+[2.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/package.ps1'
+[2.243s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/package.dsv'
+[2.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/package.sh'
+[2.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/package.bash'
+[2.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/package.zsh'
+[2.246s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/colcon-core/packages/olympic_interfaces)
+[2.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory -- -j2 -l2
+[2.352s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(olympic_interfaces)
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces' for CMake module files
+[2.364s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces' for CMake config files
+[2.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('olympic_interfaces', 'cmake_prefix_path')
+[2.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/cmake_prefix_path.ps1'
+[2.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/cmake_prefix_path.dsv'
+[2.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/cmake_prefix_path.sh'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib'
+[2.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('olympic_interfaces', 'ld_library_path_lib')
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/ld_library_path_lib.ps1'
+[2.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/ld_library_path_lib.dsv'
+[2.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/ld_library_path_lib.sh'
+[2.391s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/bin'
+[2.391s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib/pkgconfig/olympic_interfaces.pc'
+[2.392s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages'
+[2.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('olympic_interfaces', 'pythonpath')
+[2.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/pythonpath.ps1'
+[2.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/pythonpath.dsv'
+[2.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/hook/pythonpath.sh'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/bin'
+[2.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/package.ps1'
+[2.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/package.dsv'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/package.sh'
+[2.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/package.bash'
+[2.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/olympic_interfaces/package.zsh'
+[2.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/share/colcon-core/packages/olympic_interfaces)
+[2.433s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic' with build type 'ament_cmake'
+[2.434s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic'
+[2.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic': AMENT_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic -- -j2 -l2
+[2.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory -- -j2 -l2
+[2.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory
+[2.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_trajectory)
+[2.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory
+[2.715s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory' for CMake module files
+[2.716s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory' for CMake config files
+[2.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_trajectory', 'cmake_prefix_path')
+[2.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/hook/cmake_prefix_path.ps1'
+[2.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/hook/cmake_prefix_path.dsv'
+[2.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/hook/cmake_prefix_path.sh'
+[2.738s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib'
+[2.739s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/bin'
+[2.739s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib/pkgconfig/robot_trajectory.pc'
+[2.740s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib/python3.8/site-packages'
+[2.741s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/bin'
+[2.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.ps1'
+[2.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.dsv'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.sh'
+[2.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.bash'
+[2.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.zsh'
+[2.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/colcon-core/packages/robot_trajectory)
+[3.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_trajectory)
+[3.083s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory' for CMake module files
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory' for CMake config files
+[3.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_trajectory', 'cmake_prefix_path')
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/hook/cmake_prefix_path.ps1'
+[3.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/hook/cmake_prefix_path.dsv'
+[3.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/hook/cmake_prefix_path.sh'
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib'
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/bin'
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib/pkgconfig/robot_trajectory.pc'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/lib/python3.8/site-packages'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/bin'
+[3.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.ps1'
+[3.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.dsv'
+[3.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.sh'
+[3.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.bash'
+[3.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/robot_trajectory/package.zsh'
+[3.132s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/robot_trajectory/share/colcon-core/packages/robot_trajectory)
+[7.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic' returned '2': AMENT_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic -- -j2 -l2
+[7.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(olympic)
+[7.938s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic' for CMake module files
+[7.939s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic' for CMake config files
+[7.940s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/bin'
+[7.940s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/lib/pkgconfig/olympic.pc'
+[7.940s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/lib/python3.8/site-packages'
+[7.941s] Level 1:colcon.colcon_core.environment:checking '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/bin'
+[7.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/package.ps1'
+[7.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/package.dsv'
+[7.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/package.sh'
+[7.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/package.bash'
+[7.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/package.zsh'
+[7.948s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/colcon-core/packages/olympic)
+[7.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.963s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[7.963s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.982s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.982s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.982s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.017s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.022s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/local_setup.ps1'
+[8.025s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/_local_setup_util_ps1.py'
+[8.032s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/setup.ps1'
+[8.037s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/local_setup.sh'
+[8.039s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/_local_setup_util_sh.py'
+[8.041s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/setup.sh'
+[8.046s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/local_setup.bash'
+[8.048s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/setup.bash'
+[8.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/local_setup.zsh'
+[8.053s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/setup.zsh'

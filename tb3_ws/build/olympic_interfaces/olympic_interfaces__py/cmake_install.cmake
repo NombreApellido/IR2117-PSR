@@ -1,8 +1,8 @@
-# Install script for directory: /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/olympic_interfaces__py
+# Install script for directory: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/olympic_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

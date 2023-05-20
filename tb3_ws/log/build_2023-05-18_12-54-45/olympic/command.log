@@ -1,2 +1,0 @@
-Invoking command in '/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic
-Invoked command in '/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic

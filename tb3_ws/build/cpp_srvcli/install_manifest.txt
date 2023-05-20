@@ -1,0 +1,17 @@
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml

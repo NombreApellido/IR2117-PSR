@@ -1,0 +1,24 @@
+[ 33%] Built target rings_action_server
+[ 66%] Built target rings_action_client
+[100%] Built target rings
+-- Install configuration: ""
+-- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/lib/olympic/rings
+-- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/lib/olympic/rings_action_server
+-- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/lib/olympic/rings_action_client
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/launch
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/launch/olympic_rings.launch.py
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/ament_index/resource_index/package_run_dependencies/olympic
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/ament_index/resource_index/parent_prefix_path/olympic
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/environment/ament_prefix_path.sh
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/environment/ament_prefix_path.dsv
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/environment/path.sh
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/environment/path.dsv
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/local_setup.bash
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/local_setup.sh
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/local_setup.zsh
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/local_setup.dsv
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/package.dsv
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/ament_index/resource_index/packages/olympic
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/cmake/olympicConfig.cmake
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/cmake/olympicConfig-version.cmake
+-- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/package.xml

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/_olympic_interfaces_s.ep.rosidl_typesupport_c.c
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/_olympic_interfaces_s.ep.rosidl_typesupport_c.c
 Python.h
 -
 stdbool.h
@@ -14,19 +14,19 @@ stdbool.h
 stdint.h
 -
 rosidl_runtime_c/visibility_control.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/rosidl_runtime_c/visibility_control.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/rosidl_runtime_c/visibility_control.h
 rosidl_runtime_c/message_type_support_struct.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/rosidl_runtime_c/message_type_support_struct.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/service_type_support_struct.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/rosidl_runtime_c/service_type_support_struct.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/rosidl_runtime_c/service_type_support_struct.h
 rosidl_runtime_c/action_type_support_struct.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/rosidl_runtime_c/action_type_support_struct.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/rosidl_runtime_c/action_type_support_struct.h
 olympic_interfaces/action/detail/rings__type_support.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/olympic_interfaces/action/detail/rings__type_support.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/olympic_interfaces/action/detail/rings__type_support.h
 olympic_interfaces/action/detail/rings__struct.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/olympic_interfaces/action/detail/rings__struct.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/olympic_interfaces/action/detail/rings__struct.h
 olympic_interfaces/action/detail/rings__functions.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/olympic_interfaces/action/detail/rings__functions.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/olympic_interfaces/action/detail/rings__functions.h
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.h
 stdbool.h

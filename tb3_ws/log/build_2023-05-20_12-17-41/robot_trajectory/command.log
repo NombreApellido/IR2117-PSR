@@ -1,0 +1,4 @@
+Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory -- -j2 -l2
+Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory -- -j2 -l2
+Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory
+Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/robot_trajectory

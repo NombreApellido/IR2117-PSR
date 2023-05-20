@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces
+CMAKE_SOURCE_DIR = /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces
+CMAKE_BINARY_DIR = /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces
 
 # Utility rule file for olympic_interfaces__cpp.
 
@@ -82,8 +82,8 @@ rosidl_generator_cpp/olympic_interfaces/action/rings.hpp: /opt/ros/foxy/share/ac
 rosidl_generator_cpp/olympic_interfaces/action/rings.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/olympic_interfaces/action/rings.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_cpp/olympic_interfaces/action/rings.hpp: /opt/ros/foxy/share/unique_identifier_msgs/msg/UUID.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/olympic_interfaces/action/detail/rings__builder.hpp: rosidl_generator_cpp/olympic_interfaces/action/rings.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/olympic_interfaces/action/detail/rings__builder.hpp
@@ -113,6 +113,6 @@ CMakeFiles/olympic_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/olympic_interfaces__cpp.dir/clean
 
 CMakeFiles/olympic_interfaces__cpp.dir/depend:
-	cd /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces /home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/CMakeFiles/olympic_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic_interfaces /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/CMakeFiles/olympic_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/olympic_interfaces__cpp.dir/depend
 

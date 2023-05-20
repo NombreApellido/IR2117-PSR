@@ -1,0 +1,11 @@
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles/install/strip.dir
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles/install/local.dir
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles/install.dir
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles/list_install_components.dir
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles/rebuild_cache.dir
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles/edit_cache.dir
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles/test.dir
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles/detector.dir
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles/avoidance.dir
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles/obstacles_uninstall.dir
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/obstacles/CMakeFiles/uninstall.dir

@@ -1,9 +1,9 @@
 {
   "package_name": "olympic_interfaces",
-  "output_dir": "/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces",
+  "output_dir": "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces",
   "template_dir": "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_adapter/olympic_interfaces:action/Rings.idl"
+    "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_adapter/olympic_interfaces:action/Rings.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/foxy/share/action_msgs/msg/GoalInfo.idl",
@@ -28,7 +28,7 @@
     "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/foxy/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_adapter/olympic_interfaces/action/Rings.idl",
+    "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_adapter/olympic_interfaces/action/Rings.idl",
     "/opt/ros/foxy/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/foxy/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/foxy/share/action_msgs/msg/GoalStatusArray.idl",

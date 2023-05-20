@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/action/_rings_s.c" "/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/CMakeFiles/olympic_interfaces__python.dir/rosidl_generator_py/olympic_interfaces/action/_rings_s.c.o"
+  "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_py/olympic_interfaces/action/_rings_s.c" "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/CMakeFiles/olympic_interfaces__python.dir/rosidl_generator_py/olympic_interfaces/action/_rings_s.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -26,8 +26,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/CMakeFiles/olympic_interfaces__rosidl_generator_c.dir/DependInfo.cmake"
-  "/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/CMakeFiles/olympic_interfaces__rosidl_typesupport_c.dir/DependInfo.cmake"
+  "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/CMakeFiles/olympic_interfaces__rosidl_generator_c.dir/DependInfo.cmake"
+  "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/CMakeFiles/olympic_interfaces__rosidl_typesupport_c.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

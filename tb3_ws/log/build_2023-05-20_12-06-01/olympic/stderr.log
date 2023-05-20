@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:40 (install):
+  install TARGETS given target "rings_action_client" which does not exist.
+
+
+make: *** [Makefile:327: cmake_check_build_system] Error 1

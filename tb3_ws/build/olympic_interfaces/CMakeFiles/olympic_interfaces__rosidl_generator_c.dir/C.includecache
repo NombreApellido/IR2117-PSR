@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_c/olympic_interfaces/action/detail/rings__functions.c
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_c/olympic_interfaces/action/detail/rings__functions.c
 olympic_interfaces/action/detail/rings__functions.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_c/olympic_interfaces/action/detail/olympic_interfaces/action/detail/rings__functions.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_c/olympic_interfaces/action/detail/olympic_interfaces/action/detail/rings__functions.h
 assert.h
 -
 stdbool.h
@@ -18,11 +18,11 @@ stdlib.h
 string.h
 -
 rcutils/allocator.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_c/olympic_interfaces/action/detail/rcutils/allocator.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_c/olympic_interfaces/action/detail/rcutils/allocator.h
 unique_identifier_msgs/msg/detail/uuid__functions.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_c/olympic_interfaces/action/detail/unique_identifier_msgs/msg/detail/uuid__functions.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_c/olympic_interfaces/action/detail/unique_identifier_msgs/msg/detail/uuid__functions.h
 builtin_interfaces/msg/detail/time__functions.h
-/home/usuario/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_c/olympic_interfaces/action/detail/builtin_interfaces/msg/detail/time__functions.h
+/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic_interfaces/rosidl_generator_c/olympic_interfaces/action/detail/builtin_interfaces/msg/detail/time__functions.h
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/time__functions.h
 stdbool.h
