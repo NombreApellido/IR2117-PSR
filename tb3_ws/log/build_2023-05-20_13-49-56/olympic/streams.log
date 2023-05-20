@@ -1,0 +1,32 @@
+[0.101s] Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic': AMENT_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic -- -j2 -l2
+[0.215s] [35m[1mScanning dependencies of target rings_action_client[0m
+[0.292s] [ 33%] Built target rings_action_server
+[0.317s] [ 50%] [32mBuilding CXX object CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o[0m
+[0.372s] [ 83%] Built target rings
+[8.164s] [100%] [32m[1mLinking CXX executable rings_action_client[0m
+[8.580s] [100%] Built target rings_action_client
+[8.612s] Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic' returned '0': AMENT_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic -- -j2 -l2
+[8.669s] Invoking command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic': AMENT_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic
+[8.685s] -- Install configuration: ""
+[8.689s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/lib/olympic/rings
+[8.693s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/lib/olympic/rings_action_server
+[8.696s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/lib/olympic/rings_action_client
+[8.699s] -- Set runtime path of "/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/lib/olympic/rings_action_client" to ""
+[8.699s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/launch
+[8.700s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/launch/olympic_rings.launch.py
+[8.702s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/ament_index/resource_index/package_run_dependencies/olympic
+[8.703s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/ament_index/resource_index/parent_prefix_path/olympic
+[8.708s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/environment/ament_prefix_path.sh
+[8.710s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/environment/ament_prefix_path.dsv
+[8.710s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/environment/path.sh
+[8.710s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/environment/path.dsv
+[8.710s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/local_setup.bash
+[8.711s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/local_setup.sh
+[8.711s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/local_setup.zsh
+[8.711s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/local_setup.dsv
+[8.711s] -- Installing: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/package.dsv
+[8.712s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/ament_index/resource_index/packages/olympic
+[8.712s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/cmake/olympicConfig.cmake
+[8.712s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/cmake/olympicConfig-version.cmake
+[8.712s] -- Up-to-date: /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic/share/olympic/package.xml
+[8.721s] Invoked command in '/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic' returned '0': AMENT_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/install/olympic_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/build/olympic

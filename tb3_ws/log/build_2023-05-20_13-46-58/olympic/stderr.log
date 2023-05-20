@@ -1,0 +1,11 @@
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:[m[K In function ‘[01m[Kvoid feedback_callback(rclcpp_action::ClientGoalHandle<olympic_interfaces::action::Rings>::SharedPtr, std::shared_ptr<const olympic_interfaces::action::Rings_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:24:8:[m[K [01;31m[Kerror: [m[K‘[01m[KstRingstream[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kstringstream[m[K’?
+   24 |   std::[01;31m[KstRingstream[m[K ss;
+      |        [01;31m[K^~~~~~~~~~~~[m[K
+      |        [32m[Kstringstream[m[K
+[01m[K/home/marc/Documentos/GitHub/IR2117-PSR/tb3_ws/src/olympic/src/rings_action_client.cpp:25:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kss[m[K’ was not declared in this scope
+   25 |   [01;31m[Kss[m[K << std::setprecision(3) << "Circle n." << feedback->drawing_ring << " at "
+      |   [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/rings_action_client.dir/build.make:63: CMakeFiles/rings_action_client.dir/src/rings_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/rings_action_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
