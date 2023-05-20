@@ -1,46 +1,46 @@
 #include <inttypes.h>
 #include <memory>
-#include "olympic_interfaces/action/Fibonacci.hpp"
+#include "olympic_interfaces/action/Rings.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 #include <iomanip>
 #include <sstream>
 
 // We need the action and goal handle classes, the chrono literals, and a pointer to the ROS node
-using Fibonacci = 
-  olympic_interfaces::action::Fibonacci;
+using Rings = 
+  olympic_interfaces::action::Rings;
 
-using GoalHandleFibonacci =
-  rclcpp_action::ClientGoalHandle<Fibonacci>;
+using GoalHandleRings =
+  rclcpp_action::ClientGoalHandle<Rings>;
 
 using namespace std::chrono_literals;
 
 rclcpp::Node::SharedPtr g_node = nullptr;
 
 // Assuming the goal was accepted by the server, it will start processing. Any feedback to the client will be handled by the feedback_callback
-void feedback_callback(GoalHandleFibonacci::SharedPtr,
-  const std::shared_ptr<const Fibonacci::Feedback> feedback)
+void feedback_callback(GoalHandleRings::SharedPtr,
+  const std::shared_ptr<const Rings::Feedback> feedback)
 {
-  std::stFibonaccitream ss;
+  std::stRingstream ss;
   ss << std::setprecision(3) << "Circle n." << feedback->drawing_ring << " at "
      << feedback->ring_angle << " degrees";
   RCLCPP_INFO(
     g_node->get_logger(),
-    ss.str().c_str());  // stFibonaccitream to string and then to char*
+    ss.str().c_str());  // stRingstream to string and then to char*
 }
 
 // The action client requires 3 things: 
-// The templated action type name: Fibonacci
+// The templated action type name: Rings
 // A ROS 2 node to add the action client to: g_node
-// The action name: "Fibonacci"
+// The action name: "Rings"
 int main(int argc, char ** argv)
 {
   rclcpp::init(argc, argv);
   g_node = rclcpp::Node::make_shared("action_client");
   g_node->declare_parameter("radius", 1.0);  // Radius parameter
   double radius = g_node->get_parameter("radius").get_parameter_value().get<double>();
-  auto action_client = rclcpp_action::create_client<Fibonacci>(
-    g_node, "Fibonacci");
+  auto action_client = rclcpp_action::create_client<Rings>(
+    g_node, "Rings");
   
   if (!action_client->wait_for_action_server(20s)) {
     RCLCPP_ERROR(g_node->get_logger(), 
@@ -48,14 +48,14 @@ int main(int argc, char ** argv)
     return 1;
   }
   // Populate a goal
-  auto goal_msg = Fibonacci::Goal();
+  auto goal_msg = Rings::Goal();
   goal_msg.radius = radius;
 
   // Ask server to achieve the goal
   RCLCPP_INFO(g_node->get_logger(), 
     "Sending goal");
   auto send_goal_options = 
-    rclcpp_action::Client<Fibonacci>::SendGoalOptions();
+    rclcpp_action::Client<Rings>::SendGoalOptions();
   send_goal_options.feedback_callback = feedback_callback;
   auto goal_handle_future = 
     action_client->async_send_goal(goal_msg, send_goal_options);
@@ -72,7 +72,7 @@ int main(int argc, char ** argv)
     return 1;
   }
 
-  GoalHandleFibonacci::SharedPtr goal_handle = 
+  GoalHandleRings::SharedPtr goal_handle = 
     goal_handle_future.get();
   if (!goal_handle) {
     RCLCPP_ERROR(g_node->get_logger(), 
@@ -95,7 +95,7 @@ int main(int argc, char ** argv)
       "get result call failed :(");
     return 1;
   }
-  GoalHandleFibonacci::WrappedResult wrapped_result = 
+  GoalHandleRings::WrappedResult wrapped_result = 
     result_future.get();
 
   switch (wrapped_result.code) {
