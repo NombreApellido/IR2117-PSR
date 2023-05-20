@@ -1,6 +1,6 @@
 #include <inttypes.h>
 #include <memory>
-#include "olympic_interfaces/action/Rings.hpp"
+#include "olympic_interfaces/action/rings.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 #include <iomanip>
