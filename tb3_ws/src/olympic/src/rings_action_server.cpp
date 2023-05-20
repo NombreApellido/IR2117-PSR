@@ -57,13 +57,13 @@ void execute(
   RCLCPP_INFO(rclcpp::get_logger("server"), 
     "Executing goal");
   const auto goal = goal_handle->get_goal();
-  auto feedback = std::make_shared<Rings::Feedback>();
+  auto feedback = std::make_shared<Rings::Feedback>(); // feedback added
   auto result = std::make_shared<Rings::Result>();
-  auto & ring_number = feedback->drawing_ring;  // Reference to drawing_ring
-  auto & ring_angle = feedback->ring_angle;     // and ring_angle
+  auto & ring_number = feedback->drawing_ring;  
+  auto & ring_angle = feedback->ring_angle;     
   
   // Ring related
-  float radius = goal->radius;  // Get the goal from the client
+  float radius = goal->radius;  
   auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
   geometry_msgs::msg::Twist message;
   float v_angular = 1.2,
